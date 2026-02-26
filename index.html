@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Abstract Interface</title>
+    <link rel="stylesheet" href="ingiosstyle.css">
+</head>
+
+<body>
+    <div class="vista_scene_frame" role="presentation" aria-hidden="true">
+        <div class="vista_raylight_cluster">
+            <div class="vista_raylight_strip vista_raylight_strip_alpha"></div>
+            <div class="vista_raylight_strip vista_raylight_strip_beta"></div>
+            <div class="vista_raylight_strip vista_raylight_strip_gamma"></div>
+            <div class="vista_raylight_strip vista_raylight_strip_delta"></div>
+        </div>
+
+        <div class="vista_curve_arc vista_curve_arc_back"></div>
+        <div class="vista_curve_arc vista_curve_arc_mid"></div>
+        <div class="vista_curve_arc vista_curve_arc_front"></div>
+        <div class="vista_curve_arc vista_curve_arc_gloss"></div>
+
+        <div id="vista_particle_field"></div>
+    </div>
+
+    <header class="vista_glass_banner_shell">
+        <div class="vista_glass_banner_core" role="banner" aria-label="Navegación principal">
+            <nav class="vista_main_route_lane" aria-label="Secciones del sitio">
+                <div class="vista_route_group vista_route_group_left">
+                    <button class="vista_route_switch vista_route_switch_current" type="button"
+                        data-vista-section="vista_page_inicio" aria-current="page">Inicio</button>
+                    <button class="vista_route_switch" type="button" data-vista-section="vista_page_quienes">¿Quienes
+                        somos?</button>
+                    <button class="vista_route_switch" type="button"
+                        data-vista-section="vista_page_experiencias">Experiencias</button>
+                </div>
+                <div class="vista_banner_emblem">
+                    <img src="piiwAssets/piiwGraficos/RadiantesLogoVector.svg" alt="Radiantes">
+                </div>
+                <div class="vista_route_group vista_route_group_right">
+                    <button class="vista_route_switch" type="button"
+                        data-vista-section="vista_page_perspectivas">Perspectivas</button>
+                    <button class="vista_route_switch" type="button"
+                        data-vista-section="vista_page_experto">Experto</button>
+                    <button class="vista_route_switch" type="button"
+                        data-vista-section="vista_page_insights">Insights</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="vista_spa_panel_host" aria-live="polite">
+        <section class="vista_spa_panel vista_spa_panel_visible vista_spa_panel_inicio" id="vista_page_inicio"
+            tabindex="-1">
+            <h1 id="vista_inicio_title">¿Cómo podríamos preservar y aprovechar entre semestres el conocimiento práctico
+                adquirido por los estudiantes?</h1>
+            <div id="vista_inicio_content">
+                <div id="vista_inicio_orbgrid" aria-hidden="true">
+                    <div id="vista_inicio_orbwrap_one">
+                        <div id="vista_inicio_orb_one"></div>
+                        <img id="vista_inicio_orb_png_one" src="piiwAssets/piiwImagenes/MemoryLosspiiw.png" alt="">
+                        <img id="vista_inicio_orb_icon_one" src="piiwAssets/piiwGraficos/SignoPreguntaVector.svg"
+                            alt="">
+                    </div>
+                    <div id="vista_inicio_orbwrap_two">
+                        <div id="vista_inicio_orb_two"></div>
+                        <img id="vista_inicio_orb_png_two" src="piiwAssets/piiwImagenes/Erasingpiiw.png" alt="">
+                        <img id="vista_inicio_orb_icon_two" src="piiwAssets/piiwGraficos/ErrorVector.svg" alt="">
+                    </div>
+                    <div id="vista_inicio_orbwrap_three">
+                        <div id="vista_inicio_orb_three"></div>
+                        <img id="vista_inicio_orb_png_three" src="piiwAssets/piiwImagenes/MessyFiilespiiw.png" alt="">
+                        <img id="vista_inicio_orb_icon_three" src="piiwAssets/piiwGraficos/ArchivosVector.svg"
+                            alt="">
+                    </div>
+                </div>
+                <ul id="vista_inicio_bullets">
+                    <li class="vista_inicio_bullet_line">Los aprendizajes prácticos se <span
+                            class="vista_word_evap" data-vista-word="evaporan">evaporan</span> al cierre de cada
+                        semestre.</li>
+                    <li class="vista_inicio_bullet_line">Repetimos los mismos <span class="vista_word_scramble"
+                            data-vista-word="errores">errores</span> por falta de registros previos.</li>
+                    <li class="vista_inicio_bullet_line">Proyectos y prototipos valiosos se <span
+                            class="vista_word_disperse" data-vista-word="desintegran">desintegran</span> en el olvido.
+                    </li>
+                    <li class="vista_inicio_bullet_line">Actualmente nos <span class="vista_word_focus"
+                            data-vista-word="enfocamos">enfocamos</span> en analizar la raíz de este ciclo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="vista_spa_panel" id="vista_page_quienes" tabindex="-1">
+            <h1 id="vista_quienes_title">Conoce más sobre nosotros</h1>
+            <div class="vista_quienes_cardgrid" role="list">
+                <article class="vista_quienes_cardwrap vista_quienes_cardwrap_rose" role="listitem">
+                    <div class="vista_quienes_card vista_quienes_card_rose">
+                        <div class="vista_quienes_cardbg">
+                            <div class="vista_quienes_illocircle">
+                                <img class="vista_quienes_portrait" src="piiwAssets/piiwImagenes/CataVegapfp.jpg"
+                                    alt="Retrato de Catalina Vega Romero">
+                            </div>
+                        </div>
+                        <div class="vista_quienes_cardinfo">
+                            <h2 class="vista_quienes_name">Catalina Vega Romero</h2>
+                            <span class="vista_quienes_mail">catalinavero@unisabana.edu.co</span>
+                            <p class="vista_quienes_bio">
+                                Estudiante de ingeniería informática de primer semestre. Nací en Bogotá. De mi carrera
+                                me gusta la programación y los distintos campos de acción. Me gusta el skateboarding,
+                                los videojuegos y mi color favorito es el rosa.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="vista_quienes_cardwrap vista_quienes_cardwrap_lilac" role="listitem">
+                    <div class="vista_quienes_card vista_quienes_card_lilac">
+                        <div class="vista_quienes_cardbg">
+                            <div class="vista_quienes_illocircle">
+                                <img class="vista_quienes_portrait" src="piiwAssets/piiwImagenes/SofiRomeropfp.jpg"
+                                    alt="Retrato de Sofía Romero">
+                            </div>
+                        </div>
+                        <div class="vista_quienes_cardinfo">
+                            <h2 class="vista_quienes_name">Sofía Romero</h2>
+                            <span class="vista_quienes_mail">sofiaromero@unisabana.edu.co</span>
+                            <p class="vista_quienes_bio">
+                                Estudiante de ingeniería informática de primer semestre. Nací en Venezuela, pero tengo
+                                más de 10 años viviendo en Colombia. Mi parte favorita de mi carrera, es la amplitud del
+                                campo laboral y las posibilidades de creación tecnológica que esta permite. En mis
+                                tiempos libres me gusta jugar videojuegos y escuchar música.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="vista_quienes_cardwrap vista_quienes_cardwrap_onyx" role="listitem">
+                    <div class="vista_quienes_card vista_quienes_card_onyx">
+                        <div class="vista_quienes_cardbg">
+                            <div class="vista_quienes_illocircle">
+                                <img class="vista_quienes_portrait" src="piiwAssets/piiwImagenes/DavidDiazpfp.jpg"
+                                    alt="Retrato de David Diaz">
+                            </div>
+                        </div>
+                        <div class="vista_quienes_cardinfo vista_quienes_cardinfo_dark">
+                            <h2 class="vista_quienes_name">David Diaz</h2>
+                            <span class="vista_quienes_mail">daviddiaz@unisabana.edu.co</span>
+                            <p class="vista_quienes_bio">
+                                Estudiante de ingeniería informática de primer semestre. Nací en Bucaramanga, Colombia.
+                                Mi parte favorita de la carrera es el desarrollo cognitivo que esta ofrece, y las
+                                oportunidades que se brindan junto a la universidad. En mis tiempos libres, me gusta
+                                jugar fútbol, jugar videojuegos competitivos y escuchar bad bunny.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="vista_spa_panel" id="vista_page_experiencias" tabindex="-1">
+            <h1 id="vista_experiencias_title">Experiencias</h1>
+            <div class="vista_experiencias_gridwrap">
+                <div class="vista_experiencias_laserwrap" aria-hidden="true">
+                    <span class="vista_experiencias_laser vista_experiencias_laser_left"></span>
+                    <span class="vista_experiencias_laser_core"></span>
+                    <span class="vista_experiencias_laser vista_experiencias_laser_right"></span>
+                </div>
+                <div class="vista_experiencias_column vista_experiencias_column_left">
+                    <div class="vista_experiencias_tagline vista_experiencias_tagline_left">Lugar de inmersión</div>
+                    <div class="vista_experiencias_headcard vista_experiencias_headcard_left">
+                        <div class="vista_experiencias_headrow">
+                            <img class="vista_experiencias_logo"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/af/Unisabana.png"
+                                alt="Escudo Universidad de La Sabana">
+                            <h2 class="vista_experiencias_headtitle">Universidad de La Sabana</h2>
+                            <img class="vista_experiencias_flag"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/960px-Flag_of_Colombia.svg.png"
+                                alt="Bandera de Colombia">
+                        </div>
+                    </div>
+                    <div class="vista_experiencias_imagecard vista_experiencias_imagecard_left">
+                        <img class="vista_experiencias_photo"
+                            src="https://uvirtual.unisabana.edu.co/images/nuestra_universidad_la_sabana_675w.webp"
+                            alt="Campus de la Universidad de La Sabana">
+                    </div>
+                    <div class="vista_experiencias_infocard vista_experiencias_infocard_main">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_left">
+                            <img class="vista_experiencias_icon"
+                                src="https://png.pngtree.com/png-vector/20250518/ourmid/pngtree-d-rendered-checklist-icon-with-red-check-marks-representing-completed-tasks-png-image_16314698.png"
+                                alt="Icono semestre terminado">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">Semestre terminado</h3>
+                                <span class="vista_experiencias_infosub">Olvidos rápidos tras los semestres</span>
+                            </div>
+                        </div>
+                        <ul class="vista_experiencias_list">
+                            <li>Presión en actividades diarias de estudiantes, con poco tiempo para consolidar
+                                aprendizajes y validar resultados.</li>
+                            <li>Sin un archivo organizado para conservar aprendizajes prácticos, ejemplos funcionales y
+                                decisiones del proceso.</li>
+                        </ul>
+                    </div>
+                    <div class="vista_experiencias_infocard">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_left">
+                            <img class="vista_experiencias_icon"
+                                src="https://static.vecteezy.com/system/resources/previews/017/218/009/non_2x/3d-folder-and-paper-for-management-file-document-efficient-work-on-project-plan-concept-document-cartoon-style-minimal-folder-with-files-icon-3d-vector-render-free-png.png"
+                                alt="Icono proyectos">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">Proyectos y prototipos</h3>
+                                <span class="vista_experiencias_infosub">Se desintegran en el olvido</span>
+                            </div>
+                        </div>
+                        <p class="vista_experiencias_infotext">Los resultados valiosos se pierden al cierre del
+                            semestre, dejando sin continuidad a las ideas, mejoras técnicas y avances que podrían
+                            escalarse.</p>
+                    </div>
+                    <div class="vista_experiencias_infocard">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_left">
+                            <img class="vista_experiencias_icon"
+                                src="https://freesvg.org/img/molumen_red_square_error_warning_icon.png"
+                                alt="Icono acceso fragmentado">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">Acceso fragmentado</h3>
+                                <span class="vista_experiencias_infosub">Pocas referencias previas</span>
+                            </div>
+                        </div>
+                        <ul class="vista_experiencias_list">
+                            <li>Poco archivado para consulta en semestres futuros, con repositorios dispersos y
+                                referencias difíciles de encontrar.</li>
+                            <li>Repetimos errores pasados por no tener referencias previas, afectando la eficiencia y el
+                                aprendizaje acumulado.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="vista_experiencias_vs" aria-hidden="true">VS</div>
+
+                <div class="vista_experiencias_column vista_experiencias_column_right">
+                    <div class="vista_experiencias_tagline vista_experiencias_tagline_right">Lugar de inspiración</div>
+                    <div class="vista_experiencias_headcard vista_experiencias_headcard_right">
+                        <div class="vista_experiencias_headrow">
+                            <img class="vista_experiencias_logo"
+                                src="https://brandlogos.net/wp-content/uploads/2016/06/mit-logo_brandlogos.net_nc1fg-512x510.png"
+                                alt="Escudo MIT">
+                            <h2 class="vista_experiencias_headtitle">Massachusetts Institute of Technology</h2>
+                            <img class="vista_experiencias_flag"
+                                src="https://static.vecteezy.com/system/resources/thumbnails/005/565/382/small/flag-of-the-united-states-of-america-american-flag-image-free-vector.jpg"
+                                alt="Bandera de Estados Unidos">
+                        </div>
+                    </div>
+                    <div class="vista_experiencias_imagecard vista_experiencias_imagecard_right">
+                        <img class="vista_experiencias_photo"
+                            src="https://www.trolleytours.com/wp-content/uploads/2016/05/boston-mit.jpg"
+                            alt="Campus de MIT">
+                    </div>
+                    <div class="vista_experiencias_infocard vista_experiencias_infocard_main">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_right">
+                            <img class="vista_experiencias_icon"
+                                src="https://avatars.githubusercontent.com/u/3009146?s=280&v=4"
+                                alt="Icono OpenCourseWare">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">OpenCourseWare (OCW)</h3>
+                                <span class="vista_experiencias_infosub">Material disponible por años</span>
+                            </div>
+                        </div>
+                        <ul class="vista_experiencias_list">
+                            <li>Comparte apuntes, tareas y exámenes de cursos pasados, con acceso claro a recursos bien
+                                organizados.</li>
+                            <li>Accesible aun años después de terminar, permitiendo revisar avances, comparar enfoques y
+                                ampliar el aprendizaje.</li>
+                        </ul>
+                        <div class="vista_experiencias_media">
+                            <img class="vista_experiencias_mediaimg"
+                                src="https://freesvg.org/img/preferences-system.png" alt="Material OCW">
+                            <img class="vista_experiencias_mediaimg"
+                                src="https://static.vecteezy.com/system/resources/thumbnails/024/090/509/small/folder-file-documents-free-png.png"
+                                alt="Archivos OCW">
+                        </div>
+                    </div>
+                    <div class="vista_experiencias_infocard">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_right">
+                            <img class="vista_experiencias_icon"
+                                src="https://www.freeiconspng.com/uploads/save-download-icon-10.png"
+                                alt="Icono archivos integrados">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">Archivos integrados</h3>
+                                <span class="vista_experiencias_infosub">Acceso ordenado y actualizado</span>
+                            </div>
+                        </div>
+                        <p class="vista_experiencias_infotext">Plataforma unificada con acceso a tareas, proyectos y
+                            exámenes, donde los recursos quedan centralizados y listos para reutilizarse.</p>
+                    </div>
+                    <div class="vista_experiencias_infocard">
+                        <div class="vista_experiencias_infobanner vista_experiencias_infobanner_right">
+                            <img class="vista_experiencias_icon"
+                                src="https://www.svgrepo.com/show/303548/git-icon-logo.svg" alt="Icono Git">
+                            <div class="vista_experiencias_infohead">
+                                <h3 class="vista_experiencias_infotitle">Sistema de versionado (Git)</h3>
+                                <span class="vista_experiencias_infosub">Colaboración y control</span>
+                            </div>
+                        </div>
+                        <p class="vista_experiencias_infotext">Gestiona cambios de forma colaborativa con historial
+                            completo, permitiendo rastrear avances, comparar versiones y mantener continuidad.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="vista_experiencias_bottomask">¿Cómo podemos aprender de MIT para mejorar y aprovechar la
+                experiencia en UniSabana?</p>
+        </section>
+
+        <section class="vista_spa_panel" id="vista_page_perspectivas" tabindex="-1">
+            <h1 id="vista_perspectivas_title">Perspectivas</h1>
+            <div class="vista_perspectivas_shell">
+                <p id="vista_perspectivas_text">Reunimos voces estudiantiles para entender qué se pierde entre semestres
+                    y cómo transformarlo en aprendizaje sostenible.</p>
+
+                <div class="vista_perspectivas_iconstrip" aria-hidden="true">
+                    <img class="vista_perspectivas_icon vista_perspectivas_icon_one"
+                        src="https://kidstogether.org/wp-content/uploads/2021/08/Perspective-300x300.png" alt="">
+                    <img class="vista_perspectivas_icon vista_perspectivas_icon_two"
+                        src="https://png.pngtree.com/png-vector/20220613/ourmid/pngtree-various-simple-flat-designs-of-path-icons-from-different-perspectives-vector-png-image_31523038.png"
+                        alt="">
+                    <img class="vista_perspectivas_icon vista_perspectivas_icon_three"
+                        src="https://media.licdn.com/dms/image/v2/C5612AQGr-6y_p4TNNA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1591212748848?e=2147483647&v=beta&t=RTqvbbGYpXLNPH9KiB_E3ITfsn04egjP-7Lf0dA42vs"
+                        alt="">
+                    <img class="vista_perspectivas_icon vista_perspectivas_icon_four"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/070/261/908/small/checklist-icon-with-checkmarks-and-crosses-png.png"
+                        alt="">
+                    <img class="vista_perspectivas_icon vista_perspectivas_icon_five"
+                        src="https://www.nicepng.com/png/full/46-463537_eye-eye-vector-png.png" alt="">
+                </div>
+
+                <div class="vista_perspectivas_grid">
+                    <article class="vista_perspectivas_panel vista_perspectivas_panel_students"
+                        aria-label="Guía de entrevistas con estudiantes">
+                        <div class="vista_perspectivas_panel_head">
+                            <span class="vista_perspectivas_panel_tag">Voces de estudiantes</span>
+                            <h2 class="vista_perspectivas_panel_title">Guía de entrevistas (Afectados)</h2>
+                            <p class="vista_perspectivas_panel_intro">Preguntas para entender cómo se vive la pérdida de
+                                conocimiento práctico y qué esperan los estudiantes.</p>
+                        </div>
+                        <div class="vista_perspectivas_avatar_row" role="list">
+                            <div class="vista_perspectivas_avatar_chip" role="listitem" aria-label="Ana">Ana</div>
+                            <div class="vista_perspectivas_avatar_chip" role="listitem" aria-label="Eduardo">Eduardo
+                            </div>
+                            <div class="vista_perspectivas_avatar_chip" role="listitem" aria-label="Valentina">Valentina
+                            </div>
+                            <div class="vista_perspectivas_avatar_chip" role="listitem" aria-label="Juan David">Juan
+                                David</div>
+                            <div class="vista_perspectivas_avatar_chip" role="listitem" aria-label="Laura">Laura</div>
+                        </div>
+                        <ol class="vista_perspectivas_question_list">
+                            <li>¿En qué carrera y semestre estás actualmente?</li>
+                            <li>¿Qué pasa con tus proyectos o aprendizajes prácticos cuando termina el semestre?</li>
+                            <li>¿Alguna vez has sentido que se pierde información valiosa de un semestre a otro? ¿Puedes
+                                contar un ejemplo?</li>
+                            <li>¿Te ha pasado que quisieras acceder a proyectos anteriores y no pudiste?</li>
+                            <li>¿Cómo sueles guardar tus propios proyectos o aprendizajes importantes? Si tienes un
+                                lugar, coméntanos más sobre este.</li>
+                            <li>¿Te gustaría tener acceso a un repositorio de proyectos anteriores? ¿Qué debería
+                                incluir?</li>
+                            <li>¿Estarías dispuesto(a) a compartir tus proyectos para que otros estudiantes aprendan de
+                                ellos? ¿Bajo qué condiciones?</li>
+                            <li>Si pudieras cambiar algo para mejorar entre semestres, ¿cuál sería?</li>
+                        </ol>
+                    </article>
+                </div>
+
+                <div class="vista_perspectivas_interviews" role="list">
+                    <article class="vista_perspectivas_interview_card" role="listitem">
+                        <div class="vista_perspectivas_interview_profile">
+                            <img class="vista_perspectivas_interview_avatar" src="piiwAssets/piiwImagenes/anaent.png"
+                                alt="Icono de Ana">
+                            <div class="vista_perspectivas_interview_head">
+                                <span class="vista_perspectivas_interview_name">Entrevista 1</span>
+                                <span class="vista_perspectivas_interview_person">Ana, 22 · Ingeniería Informática
+                                    (1°)</span>
+                            </div>
+                        </div>
+                        <p class="vista_perspectivas_interview_body">Describe que al terminar el semestre lo aprendido
+                            se queda en el salón y que le gustaría conocer experiencias previas para anticipar nuevos
+                            retos.</p>
+                        <p class="vista_perspectivas_interview_quote">“Al final del día lo que ocurre en clase se queda
+                            en clase.”</p>
+                    </article>
+                    <article class="vista_perspectivas_interview_card" role="listitem">
+                        <div class="vista_perspectivas_interview_profile">
+                            <img class="vista_perspectivas_interview_avatar"
+                                src="piiwAssets/piiwImagenes/eduardoent.png" alt="Icono de Eduardo">
+                            <div class="vista_perspectivas_interview_head">
+                                <span class="vista_perspectivas_interview_name">Entrevista 2</span>
+                                <span class="vista_perspectivas_interview_person">Eduardo, 21 · Ingeniería Industrial
+                                    (5°)</span>
+                            </div>
+                        </div>
+                        <p class="vista_perspectivas_interview_body">Reconoce que los proyectos aplicados se archivan y
+                            se olvidan, lo que lo obliga a reaprender herramientas y repetir errores.</p>
+                        <p class="vista_perspectivas_interview_quote">“Termino la materia y nunca vuelvo a abrir esos
+                            archivos.”</p>
+                    </article>
+                    <article class="vista_perspectivas_interview_card" role="listitem">
+                        <div class="vista_perspectivas_interview_profile">
+                            <img class="vista_perspectivas_interview_avatar"
+                                src="piiwAssets/piiwImagenes/valentinaent.png" alt="Icono de Valentina">
+                            <div class="vista_perspectivas_interview_head">
+                                <span class="vista_perspectivas_interview_name">Entrevista 3</span>
+                                <span class="vista_perspectivas_interview_person">Valentina, 20 · Psicología (4°)</span>
+                            </div>
+                        </div>
+                        <p class="vista_perspectivas_interview_body">Percibe que cada semestre inicia desde cero y que
+                            los ejemplos previos ayudarían a entender expectativas y metodologías.</p>
+                        <p class="vista_perspectivas_interview_quote">“Cada profesor empieza como si uno no supiera
+                            nada.”</p>
+                    </article>
+                    <article class="vista_perspectivas_interview_card" role="listitem">
+                        <div class="vista_perspectivas_interview_profile">
+                            <img class="vista_perspectivas_interview_avatar"
+                                src="piiwAssets/piiwImagenes/juandavident.png" alt="Icono de Juan David">
+                            <div class="vista_perspectivas_interview_head">
+                                <span class="vista_perspectivas_interview_name">Entrevista 4</span>
+                                <span class="vista_perspectivas_interview_person">Juan David, 23 · Administración
+                                    (7°)</span>
+                            </div>
+                        </div>
+                        <p class="vista_perspectivas_interview_body">Explica que los análisis financieros valiosos no
+                            trascienden y que pocos documentan porque creen que nadie los consultará.</p>
+                        <p class="vista_perspectivas_interview_quote">“Son trabajos útiles, pero se quedan en la nota.”
+                        </p>
+                    </article>
+                    <article class="vista_perspectivas_interview_card" role="listitem">
+                        <div class="vista_perspectivas_interview_profile">
+                            <img class="vista_perspectivas_interview_avatar" src="piiwAssets/piiwImagenes/lauraent.png"
+                                alt="Icono de Laura">
+                            <div class="vista_perspectivas_interview_head">
+                                <span class="vista_perspectivas_interview_name">Entrevista 5</span>
+                                <span class="vista_perspectivas_interview_person">Laura, 19 · Derecho (3°)</span>
+                            </div>
+                        </div>
+                        <p class="vista_perspectivas_interview_body">Afirma que el aprendizaje es momentáneo y que al
+                            siguiente semestre los detalles se diluyen con rapidez.</p>
+                        <p class="vista_perspectivas_interview_quote">“Uno estudia muchísimo para el parcial, pero luego
+                            se olvida.”</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="vista_spa_panel" id="vista_page_experto" tabindex="-1">
+            <h1 id="vista_experto_title">Experto</h1>
+            <div class="vista_experto_shell">
+                <div class="vista_experto_resume">
+                    <div class="vista_experto_left">
+                        <div class="vista_experto_photo">
+                            <img src="piiwAssets/piiwImagenes/expertopfp.png" alt="Retrato de Juan Pablo Lopez">
+                        </div>
+                        <div class="vista_experto_block">
+                            <h3>Contacto</h3>
+                            <p>(+57) 340 123 5566</p>
+                            <p>jplopez@negocios.co</p>
+                            <p>linkedin.com/in/JuanPabloLopez</p>
+                        </div>
+                        <div class="vista_experto_block">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Liderazgo</li>
+                                <li>Comunicación asertiva</li>
+                                <li>Gestión de activos</li>
+                                <li>Resolución de problemas</li>
+                                <li>Elaboración de reportes</li>
+                                <li>Trabajo en equipo</li>
+                            </ul>
+                        </div>
+                        <div class="vista_experto_block">
+                            <h3>Educación</h3>
+                            <p>Ingeniería Informática — UNAL (2010-2014)</p>
+                            <p>Maestría en Innovación Educativa (2014-2016)</p>
+                        </div>
+                        <div class="vista_experto_block">
+                            <h3>Idiomas</h3>
+                            <p>Español (Nativo)</p>
+                            <p>Inglés (C1)</p>
+                        </div>
+                    </div>
+                    <div class="vista_experto_right">
+                        <div class="vista_experto_header">
+                            <h2>Juan Pablo Lopez</h2>
+                            <span>Magíster en Innovación Educativa mediada por TIC</span>
+                        </div>
+                        <div class="vista_experto_section">
+                            <h3>Acerca de mí</h3>
+                            <p>Ingeniero Informático con Maestría en Innovación Educativa mediada por TIC, con más de 10
+                                años de experiencia en diseño e implementación de soluciones tecnológicas para el sector
+                                educativo.</p>
+                        </div>
+                        <div class="vista_experto_section">
+                            <h3>Experiencia Laboral</h3>
+                            <ul>
+                                <li>Director de Innovación Tecnológica Educativa — Universidad Metropolitana de Colombia
+                                    (2019-Actualidad)</li>
+                                <li>Arquitecto de Soluciones — SCDTech (2015-2019)</li>
+                                <li>Ingeniero de Software — KATSolutions S.A.S. (2012-2015)</li>
+                            </ul>
+                        </div>
+                        <div class="vista_experto_section">
+                            <h3>Competencias Técnicas</h3>
+                            <ul>
+                                <li>Gestión de LMS, repositorios institucionales y analítica educativa</li>
+                                <li>Arquitectura de software, bases de datos y diseño instruccional</li>
+                                <li>Transformación digital y automatización de procesos académicos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vista_experto_guide">
+                    <h2>Guía de entrevista</h2>
+                    <ol class="vista_experto_questions">
+                        <li>Desde su experiencia, ¿cómo describiría la importancia de gestionar el conocimiento práctico
+                            en entornos universitarios?</li>
+                        <li>¿Qué riesgos observa cuando las universidades no implementan sistemas de conservación del
+                            conocimiento entre semestres?</li>
+                        <li>¿Cuáles cree que son las principales causas de la pérdida de conocimiento práctico en las
+                            instituciones de educación superior?</li>
+                        <li>¿Qué impacto tiene esta situación en la calidad del aprendizaje y en la innovación
+                            académica?</li>
+                        <li>¿Qué rol podrían desempeñar herramientas como plataformas LMS, repositorios institucionales,
+                            inteligencia artificial o sistemas colaborativos en este proceso?</li>
+                        <li>¿Cómo garantizaría la seguridad, la autoría y la ética en el uso de proyectos académicos
+                            almacenados digitalmente?</li>
+                        <li>¿Cómo motivar a los estudiantes para que compartan sus proyectos y aprendizajes de manera
+                            voluntaria?</li>
+                        <li>¿Qué pasos recomendaría para diseñar e implementar un sistema institucional de gestión del
+                            conocimiento práctico?</li>
+                        <li>¿Qué indicadores permitirían medir si la estrategia realmente está mejorando el aprendizaje?
+                        </li>
+                        <li>¿Cómo imagina el futuro de la gestión del conocimiento en la educación superior con el
+                            avance de la tecnología?</li>
+                    </ol>
+
+                    <div class="vista_experto_answers">
+                        <h3>Respuesta general</h3>
+                        <p>La gestión del conocimiento práctico es el puente entre lo que se aprende y lo que se
+                            retiene. Cuando no hay un sistema claro, la memoria institucional se fragmenta y cada
+                            cohorte repite esfuerzos. Más que soluciones inmediatas, se requiere una cultura de
+                            documentación, incentivos y una arquitectura digital que permita que el conocimiento circule
+                            con seguridad y contexto.</p>
+                        <p>El foco debe estar en entender cómo se usa esa información, no solo en almacenarla.
+                            Plataformas integradas, protocolos de autoría y métricas de reutilización pueden ayudar a
+                            construir continuidad académica sin imponer cargas extra al estudiante.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vista_spa_panel" id="vista_page_insights" tabindex="-1">
+            <h1 id="vista_insights_title">Insights</h1>
+            <p id="vista_insights_text">Visualiza hallazgos clave y patrones detectados en la investigación.</p>
+            <div class="vista_insights_shell">
+                <div class="vista_insights_grid">
+                    <article class="vista_insights_card vista_insights_card_learned" aria-label="Aprendizajes clave">
+                        <div class="vista_insights_cardhead">
+                            <span class="vista_insights_cardtag">Experiencia</span>
+                            <h2 class="vista_insights_cardtitle">¿Qué aprendimos de esta experiencia?</h2>
+                        </div>
+                        <ul class="vista_insights_list">
+                            <li>El conocimiento práctico se diluye sin rituales de cierre y documentación.</li>
+                            <li>La presión académica desplaza la reflexión y la consolidación.</li>
+                            <li>El valor del aprendizaje se potencia cuando es visible y reutilizable.</li>
+                        </ul>
+                    </article>
+
+                    <article class="vista_insights_card vista_insights_card_interviews" aria-label="Hallazgos de entrevistas">
+                        <div class="vista_insights_cardhead">
+                            <span class="vista_insights_cardtag">Entrevistas</span>
+                            <h2 class="vista_insights_cardtitle">¿Qué aprendimos de las entrevistas?</h2>
+                        </div>
+                        <ul class="vista_insights_list">
+                            <li>Los estudiantes desean acceso a ejemplos reales y cercanos.</li>
+                            <li>Existe frustración por la repetición de errores pasados.</li>
+                            <li>La mayoría guarda proyectos de forma dispersa y personal.</li>
+                        </ul>
+                    </article>
+
+                    <article class="vista_insights_card vista_insights_card_perspectives" aria-label="Hallazgos de perspectivas">
+                        <div class="vista_insights_cardhead">
+                            <span class="vista_insights_cardtag">Perspectivas</span>
+                            <h2 class="vista_insights_cardtitle">¿Qué aprendimos de las diferentes perspectivas?</h2>
+                        </div>
+                        <ul class="vista_insights_list">
+                            <li>Los estudiantes priorizan accesibilidad y utilidad inmediata.</li>
+                            <li>El experto destaca cultura, protocolos y métricas de uso.</li>
+                            <li>El problema es tanto técnico como humano y organizacional.</li>
+                        </ul>
+                    </article>
+
+                    <article class="vista_insights_card vista_insights_card_places" aria-label="Hallazgos de lugares">
+                        <div class="vista_insights_cardhead">
+                            <span class="vista_insights_cardtag">Lugares</span>
+                            <h2 class="vista_insights_cardtitle">¿Qué aprendimos de los lugares?</h2>
+                        </div>
+                        <ul class="vista_insights_list">
+                            <li>UniSabana sufre fragmentación y baja continuidad académica.</li>
+                            <li>MIT demuestra que repositorios abiertos generan memoria colectiva.</li>
+                            <li>La clave está en centralizar, versionar y mantener vigente.</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="vista_insights_ribbon" aria-hidden="true">
+                    <span class="vista_insights_ribbon_line"></span>
+                    <span class="vista_insights_ribbon_orb"></span>
+                    <span class="vista_insights_ribbon_line"></span>
+                </div>
+
+                <div class="vista_insights_summary" role="note" aria-label="Resumen general">
+                    <h2 class="vista_insights_summary_title">Conclusión general</h2>
+                    <p class="vista_insights_summary_text">El conocimiento práctico necesita continuidad. Sin espacios de
+                        archivo, reflexión y acceso, cada semestre reinicia el aprendizaje. El hallazgo central es que el
+                        problema no es falta de esfuerzo, sino ausencia de una arquitectura compartida que vuelva lo
+                        aprendido visible, consultable y evolutivo.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="ingiosscript.js" defer></script>
+</body>
+
+</html>

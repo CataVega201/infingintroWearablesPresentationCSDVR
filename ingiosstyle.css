@@ -54,21 +54,21 @@ img {
 
 .vista_glass_banner_core {
     position: relative;
-    width: 97vw;
-    max-width: 91.1458333333vw;
+    width: 92vw;
+    max-width: 84vw;
     min-height: 4.7916666667vw;
     border-radius: 4.1666666667vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.42);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.42);
     background:
-        radial-gradient(75% 60% at 50% 0%, rgba(255,255,255,0.65), rgba(255,255,255,0.07) 60%, rgba(255,255,255,0.02) 100%),
-        radial-gradient(70% 40% at 50% 90%, rgba(0,255,200,0.2), transparent 70%);
+        radial-gradient(75% 60% at 50% 0%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.07) 60%, rgba(255, 255, 255, 0.02) 100%),
+        radial-gradient(70% 40% at 50% 90%, rgba(0, 255, 200, 0.2), transparent 70%);
     backdrop-filter: blur(0.15625vw) saturate(130%);
     -webkit-backdrop-filter: blur(0.15625vw) saturate(130%);
     box-shadow:
-        inset 0 -0.5208333333vw 1.0416666667vw rgba(255,255,255,0.25),
-        inset 0 0.4166666667vw 0.9375vw rgba(255,255,255,0.35),
-        0 0.9375vw 2.6041666667vw rgba(0,0,0,0.3),
-        0 0 2.0833333333vw rgba(0,255,200,0.18);
+        inset 0 -0.5208333333vw 1.0416666667vw rgba(255, 255, 255, 0.25),
+        inset 0 0.4166666667vw 0.9375vw rgba(255, 255, 255, 0.35),
+        0 0.9375vw 2.6041666667vw rgba(0, 0, 0, 0.3),
+        0 0 2.0833333333vw rgba(0, 255, 200, 0.18);
     pointer-events: auto;
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@ img {
     width: 95%;
     height: 58%;
     border-radius: 4.1666666667vw;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.95), rgba(255,255,255,0.18));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.18));
     opacity: 0.95;
     pointer-events: none;
 }
@@ -128,15 +128,15 @@ img {
     justify-content: center;
     margin-top: -0.2vw;
     border-radius: 0;
-    border: 0.0520833333vw solid rgba(255,255,255,0.6);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.6);
     background:
-        radial-gradient(72% 70% at 50% 12%, rgba(255,255,255,0.75), rgba(255,255,255,0.1) 58%, rgba(255,255,255,0.04) 100%),
-        radial-gradient(60% 55% at 50% 88%, rgba(0,255,200,0.32), transparent 70%);
+        radial-gradient(72% 70% at 50% 12%, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.1) 58%, rgba(255, 255, 255, 0.04) 100%),
+        radial-gradient(60% 55% at 50% 88%, rgba(0, 255, 200, 0.32), transparent 70%);
     box-shadow:
-        inset 0 -0.4vw 0.9vw rgba(255,255,255,0.3),
-        inset 0 0.3vw 0.7vw rgba(255,255,255,0.38),
-        0 0.7vw 2vw rgba(0,0,0,0.32),
-        0 0 1.8vw rgba(0,255,200,0.28);
+        inset 0 -0.4vw 0.9vw rgba(255, 255, 255, 0.3),
+        inset 0 0.3vw 0.7vw rgba(255, 255, 255, 0.38),
+        0 0.7vw 2vw rgba(0, 0, 0, 0.32),
+        0 0 1.8vw rgba(0, 255, 200, 0.28);
     backdrop-filter: blur(0.35vw) saturate(145%);
     -webkit-backdrop-filter: blur(0.35vw) saturate(145%);
     transform: translate(-50%, -50%) rotate(45deg);
@@ -154,14 +154,14 @@ img {
     padding: 0;
     border: 0;
     background: transparent;
-    color: rgba(255,255,255,0.92);
+    color: rgba(255, 255, 255, 0.92);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     font-size: 1.36vw;
     font-weight: 400;
     letter-spacing: 0.05vw;
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease;
-    text-shadow: 0 0 0.18vw rgba(146,255,255,0.35);
+    text-shadow: 0 0 0.18vw rgba(146, 255, 255, 0.35);
 }
 
 .vista_route_switch::after {
@@ -172,17 +172,36 @@ img {
     width: 74%;
     height: 0.1vw;
     border-radius: 0.2vw;
-    background: linear-gradient(90deg, rgba(160,250,255,0.08) 0%, rgba(224,255,255,0.95) 50%, rgba(108,254,239,0.08) 100%);
+    background: linear-gradient(90deg, rgba(160, 250, 255, 0.08) 0%, rgba(224, 255, 255, 0.95) 50%, rgba(108, 254, 239, 0.08) 100%);
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
     transition: transform 0.22s ease;
+}
+.vista_experto_reason {
+    border-radius: 1.8vw;
+    padding: 1.8vw 2vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 25, 40, 0.55);
+    color: rgba(235, 255, 255, 0.95);
+    box-shadow: 0 0.8vw 2vw rgba(0, 0, 0, 0.35);
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+}
+.vista_experto_reason h3 {
+    margin: 0 0 0.7vw 0;
+    font-size: 1.25vw;
+    color: rgba(255, 242, 213, 0.98);
+}
+.vista_experto_reason p {
+    margin: 0;
+    font-size: 1vw;
+    line-height: 1.6;
 }
 
 .vista_route_switch:hover,
 .vista_route_switch:focus-visible {
     transform: translateY(-0.08vw) scale(1.03);
     opacity: 1;
-    text-shadow: 0 0 0.28vw rgba(133,255,255,0.9);
+    text-shadow: 0 0 0.28vw rgba(133, 255, 255, 0.9);
     outline: none;
 }
 
@@ -198,7 +217,7 @@ img {
 
 .vista_route_switch_current {
     opacity: 1;
-    text-shadow: 0 0 0.4vw rgba(185,255,255,0.95), 0 0 0.7vw rgba(70,255,248,0.65);
+    text-shadow: 0 0 0.4vw rgba(185, 255, 255, 0.95), 0 0 0.7vw rgba(70, 255, 248, 0.65);
 }
 
 .vista_spa_panel_host {
@@ -208,13 +227,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 2vw 3vw;
+    padding: 1.8vw 2.4vw;
     box-sizing: border-box;
 }
 
 .vista_spa_panel {
     display: none;
     width: 100%;
+    max-width: 88vw;
     padding: 0;
     text-align: center;
     align-items: center;
@@ -249,14 +269,14 @@ img {
 #vista_inicio_title {
     width: 100%;
     margin: 0;
-    color: rgba(255,255,255,0.99);
+    color: rgba(255, 255, 255, 0.99);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     font-size: 3vw;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
     animation: vista_inicio_glow_pulse 3.8s ease-in-out infinite;
-    text-shadow: 0 0.07vw 0.24vw rgba(36,48,88,0.28), 0 0 0.52vw rgba(255,255,255,0.22);
+    text-shadow: 0 0.07vw 0.24vw rgba(36, 48, 88, 0.28), 0 0 0.52vw rgba(255, 255, 255, 0.22);
 }
 
 #vista_inicio_content {
@@ -315,7 +335,7 @@ img {
     height: 54%;
     left: 16%;
     top: 1%;
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.7) 100%);
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.7) 100%);
 }
 
 #vista_inicio_orb_one::after,
@@ -326,7 +346,7 @@ img {
     bottom: -5%;
     height: 94%;
     opacity: 0.8;
-    background-image: radial-gradient(rgba(255,255,255,1) 10%, rgba(255,255,255,0.8) 30%, rgba(255,255,255,0) 60%);
+    background-image: radial-gradient(rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.8) 30%, rgba(255, 255, 255, 0) 60%);
     mix-blend-mode: overlay;
 }
 
@@ -392,25 +412,25 @@ img {
 #vista_inicio_bullets {
     margin: 0;
     padding: 2.4vw 2.6vw;
-    max-width: 52vw;
-    color: rgba(255,255,255,0.95);
+    max-width: 46vw;
+    color: rgba(255, 255, 255, 0.95);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     line-height: 1.65;
     text-align: left;
     border-radius: 2.4vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
     background:
-        radial-gradient(75% 60% at 50% 0%, rgba(255,255,255,0.6), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.03) 100%),
-        radial-gradient(70% 40% at 50% 90%, rgba(0,255,200,0.18), transparent 70%);
+        radial-gradient(75% 60% at 50% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.03) 100%),
+        radial-gradient(70% 40% at 50% 90%, rgba(0, 255, 200, 0.18), transparent 70%);
     backdrop-filter: blur(0.2vw) saturate(135%);
     -webkit-backdrop-filter: blur(0.2vw) saturate(135%);
     box-shadow:
-        inset 0 -0.42vw 0.9vw rgba(255,255,255,0.2),
-        inset 0 0.35vw 0.7vw rgba(255,255,255,0.3),
-        0 0.7vw 2.2vw rgba(0,0,0,0.35),
-        0 0 1.9vw rgba(0,255,200,0.16);
-    text-shadow: 0 0.06vw 0.18vw rgba(0,20,45,0.4);
+        inset 0 -0.42vw 0.9vw rgba(255, 255, 255, 0.2),
+        inset 0 0.35vw 0.7vw rgba(255, 255, 255, 0.3),
+        0 0.7vw 2.2vw rgba(0, 0, 0, 0.35),
+        0 0 1.9vw rgba(0, 255, 200, 0.16);
+    text-shadow: 0 0.06vw 0.18vw rgba(0, 20, 45, 0.4);
     list-style-position: inside;
     align-self: center;
 }
@@ -434,10 +454,10 @@ img {
 #vista_experto_title,
 #vista_insights_title {
     margin: 0;
-    color: rgba(233,251,255,0.97);
+    color: rgba(233, 251, 255, 0.97);
     font-size: 2.5vw;
     font-weight: 700;
-    text-shadow: 0 0.1vw 0.3vw rgba(0,39,92,0.7);
+    text-shadow: 0 0.1vw 0.3vw rgba(0, 39, 92, 0.7);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
 }
 
@@ -445,26 +465,35 @@ img {
 #vista_experto_text,
 #vista_insights_text {
     margin: 1.2vw 0 0;
-    color: rgba(239,255,255,0.95);
+    color: rgba(232, 244, 255, 0.95);
     font-size: 1.26vw;
     line-height: 1.5;
     max-width: 54vw;
-    text-shadow: 0 0.05vw 0.2vw rgba(1,28,51,0.6);
+    text-shadow: 0 0.05vw 0.2vw rgba(1, 28, 51, 0.6);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
+}
+
+#vista_experto_text {
+    color: rgba(230, 255, 236, 0.95);
+}
+
+#vista_insights_text {
+    color: rgba(255, 236, 246, 0.95);
 }
 
 #vista_perspectivas_text {
     margin: 0.6vw 0 0;
-    color: rgba(239,255,255,0.95);
+    color: rgba(232, 238, 255, 0.95);
     font-size: 1.26vw;
     line-height: 1.5;
     max-width: 54vw;
-    text-shadow: 0 0.05vw 0.2vw rgba(1,28,51,0.6);
+    text-shadow: 0 0.05vw 0.2vw rgba(1, 28, 51, 0.6);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
 }
 
 .vista_experiencias_gridwrap {
-    width: 100%;
+    width: 92%;
+    max-width: 84vw;
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     gap: 3vw;
@@ -480,14 +509,14 @@ img {
     gap: 2.2vw;
     text-align: left;
     min-width: 0;
-    width: 86%;
-    max-width: 38vw;
+    width: 82%;
+    max-width: 34vw;
     box-sizing: border-box;
     justify-self: center;
     align-items: center;
 }
 
-.vista_experiencias_column > * {
+.vista_experiencias_column>* {
     width: 100%;
     box-sizing: border-box;
 }
@@ -511,29 +540,29 @@ img {
     width: 32vw;
     border-radius: 2vw;
     box-shadow:
-        0 0 0.5vw rgba(0,255,230,0.6),
-        0 0 1vw rgba(0,255,220,0.7),
-        0 0 1.6vw rgba(0,255,210,0.75);
+        0 0 0.5vw rgba(0, 255, 230, 0.6),
+        0 0 1vw rgba(0, 255, 220, 0.7),
+        0 0 1.6vw rgba(0, 255, 210, 0.75);
     animation: vista_experiencias_laser_pulse 2.4s ease-in-out infinite;
 }
 
 .vista_experiencias_laser_left {
-    background: linear-gradient(90deg, rgba(0,255,220,0) 0%, rgba(0,255,220,0.2) 28%, rgba(0,255,230,0.7) 55%, rgba(255,255,255,0.95) 100%);
+    background: linear-gradient(90deg, rgba(0, 255, 220, 0) 0%, rgba(0, 255, 220, 0.2) 28%, rgba(0, 255, 230, 0.7) 55%, rgba(255, 255, 255, 0.95) 100%);
 }
 
 .vista_experiencias_laser_right {
-    background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(0,255,230,0.7) 45%, rgba(0,255,220,0.2) 72%, rgba(0,255,220,0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 255, 230, 0.7) 45%, rgba(0, 255, 220, 0.2) 72%, rgba(0, 255, 220, 0) 100%);
 }
 
 .vista_experiencias_laser_core {
     width: 1.5vw;
     height: 1.5vw;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,255,255,0.98) 0%, rgba(0,255,230,0.9) 40%, rgba(0,255,230,0.1) 70%, rgba(0,255,230,0) 100%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.98) 0%, rgba(0, 255, 230, 0.9) 40%, rgba(0, 255, 230, 0.1) 70%, rgba(0, 255, 230, 0) 100%);
     box-shadow:
-        0 0 0.6vw rgba(255,255,255,0.8),
-        0 0 1.2vw rgba(0,255,230,0.9),
-        0 0 2vw rgba(0,255,210,0.8);
+        0 0 0.6vw rgba(255, 255, 255, 0.8),
+        0 0 1.2vw rgba(0, 255, 230, 0.9),
+        0 0 2vw rgba(0, 255, 210, 0.8);
     animation: vista_experiencias_laser_core_pulse 1.8s ease-in-out infinite;
 }
 
@@ -544,11 +573,11 @@ img {
     font-size: 2.4vw;
     font-weight: 700;
     letter-spacing: 0.2vw;
-    color: rgba(255,255,255,0.95);
+    color: rgba(255, 255, 255, 0.95);
     text-shadow:
-        0 0 0.4vw rgba(120,255,255,0.7),
-        0 0 0.8vw rgba(0,255,220,0.8),
-        0 0 1.4vw rgba(0,255,200,0.65);
+        0 0 0.4vw rgba(120, 255, 255, 0.7),
+        0 0 0.8vw rgba(0, 255, 220, 0.8),
+        0 0 1.4vw rgba(0, 255, 200, 0.65);
     animation: vista_experiencias_vs_glow 2.6s ease-in-out infinite;
     z-index: 3;
 }
@@ -559,45 +588,46 @@ img {
     border-radius: 2vw;
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     font-size: 1.35vw;
-    color: rgba(255,255,255,0.96);
-    text-shadow: 0 0.08vw 0.2vw rgba(0,40,80,0.6);
-    border: 0.0520833333vw solid rgba(255,255,255,0.55);
+    color: rgba(220, 255, 230, 0.98);
+    text-shadow: 0 0.1vw 0.3vw rgba(0, 40, 80, 0.72);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.55);
     background:
-        linear-gradient(135deg, rgba(120,240,255,0.8), rgba(16,120,170,0.55));
-    box-shadow: 0 0.8vw 1.6vw rgba(0,40,70,0.3);
+        linear-gradient(135deg, rgba(120, 240, 255, 0.8), rgba(16, 120, 170, 0.55));
+    box-shadow: 0 0.8vw 1.6vw rgba(0, 40, 70, 0.3);
 }
 
 .vista_experiencias_tagline_right {
     align-self: flex-end;
+    color: rgba(223, 255, 231, 0.98);
     background:
-        linear-gradient(135deg, rgba(112,255,200,0.8), rgba(15,120,80,0.55));
+        linear-gradient(135deg, rgba(112, 255, 200, 0.8), rgba(15, 120, 80, 0.55));
 }
 
 .vista_experiencias_headcard {
     width: 100%;
     padding: 0.6vw 1.6vw;
     border-radius: 1.6vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.55);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.55);
     background:
-        radial-gradient(85% 80% at 50% 0%, rgba(255,255,255,0.6), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.04) 100%);
+        radial-gradient(85% 80% at 50% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.04) 100%);
     box-shadow:
-        inset 0 -0.4vw 0.7vw rgba(255,255,255,0.2),
-        0 0.6vw 1.6vw rgba(0,0,0,0.35);
+        inset 0 -0.4vw 0.7vw rgba(255, 255, 255, 0.2),
+        0 0.6vw 1.6vw rgba(0, 0, 0, 0.35);
     box-sizing: border-box;
 }
 
 .vista_experiencias_headcard_left {
-    border-color: rgba(120,220,255,0.7);
+    border-color: rgba(120, 220, 255, 0.7);
     box-shadow:
-        0 0 1.4vw rgba(80,220,255,0.5),
-        inset 0 -0.4vw 0.7vw rgba(255,255,255,0.2);
+        0 0 1.4vw rgba(80, 220, 255, 0.5),
+        inset 0 -0.4vw 0.7vw rgba(255, 255, 255, 0.2);
 }
 
 .vista_experiencias_headcard_right {
-    border-color: rgba(140,255,200,0.7);
+    border-color: rgba(140, 255, 200, 0.7);
     box-shadow:
-        0 0 1.4vw rgba(120,255,200,0.5),
-        inset 0 -0.4vw 0.7vw rgba(255,255,255,0.2);
+        0 0 1.4vw rgba(120, 255, 200, 0.5),
+        inset 0 -0.4vw 0.7vw rgba(255, 255, 255, 0.2);
 }
 
 .vista_experiencias_headrow {
@@ -617,7 +647,8 @@ img {
     margin: 0;
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     font-size: 1.38vw;
-    color: rgba(255,255,255,0.96);
+    color: #fff6e8;
+    text-shadow: 0 0 0.45vw rgba(255, 176, 116, 0.72);
     flex: 1;
 }
 
@@ -631,19 +662,19 @@ img {
     width: 100%;
     border-radius: 1.8vw;
     overflow: hidden;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
-    box-shadow: 0 0.7vw 2vw rgba(0,0,0,0.45);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0.7vw 2vw rgba(0, 0, 0, 0.45);
     display: block;
     padding: 0;
     box-sizing: border-box;
 }
 
 .vista_experiencias_imagecard_left {
-    box-shadow: 0 0.7vw 2vw rgba(80,220,255,0.35);
+    box-shadow: 0 0.7vw 2vw rgba(80, 220, 255, 0.35);
 }
 
 .vista_experiencias_imagecard_right {
-    box-shadow: 0 0.7vw 2vw rgba(120,255,200,0.35);
+    box-shadow: 0 0.7vw 2vw rgba(120, 255, 200, 0.35);
 }
 
 .vista_experiencias_photo {
@@ -658,19 +689,19 @@ img {
     width: 100%;
     border-radius: 1.6vw;
     padding: 1vw 1.4vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.35);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.35);
     background:
-        radial-gradient(80% 70% at 50% 0%, rgba(255,255,255,0.6), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.04) 100%);
+        radial-gradient(80% 70% at 50% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.04) 100%);
     box-shadow:
-        inset 0 -0.3vw 0.6vw rgba(255,255,255,0.18),
-        0 0.5vw 1.4vw rgba(0,0,0,0.35);
-    color: rgba(240,255,255,0.95);
+        inset 0 -0.3vw 0.6vw rgba(255, 255, 255, 0.18),
+        0 0.5vw 1.4vw rgba(0, 0, 0, 0.35);
+    color: rgba(240, 255, 255, 0.95);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
 .vista_experiencias_infocard_main {
-    border-color: rgba(255,255,255,0.5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .vista_experiencias_infobanner {
@@ -680,17 +711,17 @@ img {
     padding: 0.4vw 0.8vw;
     border-radius: 1.2vw;
     margin-bottom: 0.8vw;
-    background: rgba(0,20,40,0.3);
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
+    background: rgba(0, 20, 40, 0.3);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
     box-sizing: border-box;
 }
 
 .vista_experiencias_infobanner_left {
-    box-shadow: 0 0 1vw rgba(80,220,255,0.35);
+    box-shadow: 0 0 1vw rgba(80, 220, 255, 0.35);
 }
 
 .vista_experiencias_infobanner_right {
-    box-shadow: 0 0 1vw rgba(120,255,200,0.35);
+    box-shadow: 0 0 1vw rgba(120, 255, 200, 0.35);
 }
 
 .vista_experiencias_icon {
@@ -709,12 +740,37 @@ img {
 .vista_experiencias_infotitle {
     margin: 0;
     font-size: 1.18vw;
-    color: rgba(255,255,255,0.97);
+    display: inline-block;
+    padding: 0.12vw 0.48vw;
+    border-radius: 0.7vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.38);
+    color: #fff7ef;
+    text-shadow: 0 0 0.32vw rgba(255, 165, 109, 0.65);
+}
+
+.vista_experiencias_column_left .vista_experiencias_headtitle,
+.vista_experiencias_column_left .vista_experiencias_infotitle {
+    color: #ffb6a6;
+    text-shadow: 0 0 0.5vw rgba(255, 182, 166, 0.85);
+}
+
+.vista_experiencias_column_right .vista_experiencias_headtitle,
+.vista_experiencias_column_right .vista_experiencias_infotitle {
+    color: #e3adff;
+    text-shadow: 0 0 0.5vw rgba(227, 173, 255, 0.85);
+}
+
+.vista_experiencias_column_left .vista_experiencias_infotitle {
+    background: rgba(255, 133, 94, 0.2);
+}
+
+.vista_experiencias_column_right .vista_experiencias_infotitle {
+    background: rgba(198, 124, 255, 0.2);
 }
 
 .vista_experiencias_infosub {
     font-size: 1.02vw;
-    color: rgba(220,255,255,0.9);
+    color: rgba(226, 248, 255, 0.92);
 }
 
 .vista_experiencias_list {
@@ -746,16 +802,16 @@ img {
     max-width: 12vw;
     height: auto;
     border-radius: 0.9vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
-    box-shadow: 0 0.4vw 1vw rgba(0,0,0,0.3);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.3);
 }
 
 .vista_experiencias_bottomask {
     margin: 2.4vw 0 0;
-    color: rgba(239,255,255,0.95);
+    color: rgba(239, 255, 255, 0.95);
     font-size: 1.22vw;
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
-    text-shadow: 0 0.05vw 0.2vw rgba(1,28,51,0.6);
+    text-shadow: 0 0.05vw 0.2vw rgba(1, 28, 51, 0.6);
     max-width: 60vw;
 }
 
@@ -779,15 +835,15 @@ img {
 
 .vista_perspectivas_panel {
     border-radius: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.5);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.5);
     background:
-        radial-gradient(85% 75% at 50% 0%, rgba(255,255,255,0.6), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.03) 100%);
+        radial-gradient(85% 75% at 50% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.03) 100%);
     box-shadow:
-        inset 0 -0.4vw 0.9vw rgba(255,255,255,0.22),
-        0 0.8vw 2.2vw rgba(0,0,0,0.4);
+        inset 0 -0.4vw 0.9vw rgba(255, 255, 255, 0.22),
+        0 0.8vw 2.2vw rgba(0, 0, 0, 0.4);
     padding: 2.2vw;
     text-align: left;
-    color: rgba(235,255,255,0.96);
+    color: rgba(235, 255, 255, 0.96);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -796,15 +852,15 @@ img {
     overflow: hidden;
     animation: vista_perspectivas_panel_float 5.5s ease-in-out infinite;
     width: 100%;
-    max-width: 72vw;
+    max-width: 54vw;
 }
 
 .vista_perspectivas_panel_students {
-    border-color: rgba(120,220,255,0.6);
+    border-color: rgba(120, 220, 255, 0.6);
 }
 
 .vista_perspectivas_panel_expert {
-    border-color: rgba(130,255,200,0.6);
+    border-color: rgba(130, 255, 200, 0.6);
     animation-delay: 0.8s;
 }
 
@@ -819,8 +875,8 @@ img {
     align-self: flex-start;
     padding: 0.35vw 1.2vw;
     border-radius: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.6);
-    background: rgba(0,40,80,0.35);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.6);
+    background: rgba(0, 40, 80, 0.35);
     font-size: 1.05vw;
     letter-spacing: 0.05vw;
 }
@@ -828,14 +884,14 @@ img {
 .vista_perspectivas_panel_title {
     margin: 0;
     font-size: 1.7vw;
-    color: rgba(255,255,255,0.98);
+    color: rgba(255, 255, 255, 0.98);
 }
 
 .vista_perspectivas_panel_intro {
     margin: 0;
     font-size: 1.05vw;
     line-height: 1.5;
-    color: rgba(220,245,255,0.95);
+    color: rgba(220, 245, 255, 0.95);
 }
 
 .vista_perspectivas_avatar_row {
@@ -847,16 +903,16 @@ img {
 .vista_perspectivas_avatar_chip {
     padding: 0.45vw 1.1vw;
     border-radius: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.45);
-    background: rgba(0,25,55,0.4);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
+    background: rgba(0, 25, 55, 0.4);
     font-size: 1.02vw;
-    color: rgba(255,255,255,0.95);
+    color: rgba(255, 255, 255, 0.95);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .vista_perspectivas_avatar_chip:hover {
     transform: translateY(-0.15vw) scale(1.02);
-    box-shadow: 0 0 0.6vw rgba(120,255,255,0.6);
+    box-shadow: 0 0 0.6vw rgba(120, 255, 255, 0.6);
 }
 
 .vista_perspectivas_question_list {
@@ -872,58 +928,129 @@ img {
 .vista_perspectivas_question_list li {
     padding: 0.6vw 0.9vw;
     border-radius: 1.2vw;
-    background: rgba(0,25,55,0.35);
-    border: 0.0520833333vw solid rgba(255,255,255,0.25);
+    background: rgba(0, 25, 55, 0.35);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.25);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .vista_perspectivas_question_list li:hover {
     transform: translateY(-0.12vw);
-    box-shadow: 0 0 0.7vw rgba(120,255,255,0.45);
+    box-shadow: 0 0 0.7vw rgba(120, 255, 255, 0.45);
 }
 
-.vista_perspectivas_expert_response {
+.vista_perspectivas_stories_head {
+    width: 100%;
+    max-width: 54vw;
     border-radius: 1.5vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
-    background: rgba(0,30,55,0.45);
-    padding: 1.2vw 1.4vw;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6vw;
+    padding: 1.2vw 1.6vw;
+    text-align: left;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
+    background: rgba(0, 25, 55, 0.45);
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+    color: rgba(235, 255, 255, 0.96);
 }
 
-.vista_perspectivas_expert_tag {
-    font-size: 0.95vw;
-    letter-spacing: 0.08vw;
-    color: rgba(170,255,235,0.95);
+.vista_perspectivas_stories_head h2 {
+    margin: 0 0 0.4vw 0;
+    font-size: 1.5vw;
 }
 
-.vista_perspectivas_expert_quote {
+.vista_perspectivas_stories_head p {
     margin: 0;
-    font-size: 1.05vw;
-    line-height: 1.6;
-    color: rgba(235,255,255,0.98);
+    font-size: 1.02vw;
+    line-height: 1.45;
+}
+
+.vista_perspectivas_story_tabs {
+    width: 100%;
+    max-width: 54vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8vw;
+    justify-content: flex-start;
+}
+
+.vista_story_tab {
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
+    background: rgba(0, 20, 45, 0.45);
+    color: rgba(230, 250, 255, 0.95);
+    border-radius: 999vw;
+    padding: 0.55vw 1.2vw;
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+    font-size: 0.98vw;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.vista_story_tab:hover,
+.vista_story_tab:focus-visible {
+    transform: translateY(-0.1vw);
+    box-shadow: 0 0 0.6vw rgba(120, 255, 255, 0.45);
+    outline: none;
+}
+
+.vista_story_tab_active {
+    background: linear-gradient(135deg, rgba(120, 240, 255, 0.75), rgba(16, 120, 170, 0.55));
+    color: #ffffff;
+    border-color: rgba(170, 255, 255, 0.8);
+}
+
+.vista_perspectivas_story_panels {
+    width: 100%;
+    max-width: 54vw;
+}
+
+.vista_story_panel {
+    display: none;
+    border-radius: 1.5vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
+    background: rgba(0, 20, 45, 0.5);
+    padding: 1.5vw 1.6vw;
+    text-align: left;
+    color: rgba(235, 255, 255, 0.96);
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+}
+
+.vista_story_panel_active {
+    display: block;
+    animation: vista_story_fade 0.3s ease;
+}
+
+.vista_story_panel h3 {
+    margin: 0 0 0.8vw 0;
+    font-size: 1.25vw;
+}
+
+.vista_story_panel p {
+    margin: 0 0 0.6vw 0;
+    font-size: 1.03vw;
+    line-height: 1.55;
 }
 
 .vista_perspectivas_interviews {
     width: 100%;
+    max-width: 82vw;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 1.6vw;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2vw;
 }
 
 .vista_perspectivas_interview_card {
     border-radius: 1.6vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.45);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
     background:
-        radial-gradient(80% 70% at 50% 0%, rgba(255,255,255,0.55), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.02) 100%);
-    padding: 1.5vw;
+        radial-gradient(80% 70% at 50% 0%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.02) 100%);
+    padding: 1.2vw 1.3vw;
     text-align: left;
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
-    color: rgba(240,255,255,0.95);
-    box-shadow: 0 0.7vw 1.8vw rgba(0,0,0,0.35);
+    color: rgba(240, 255, 255, 0.95);
+    box-shadow: 0 0.7vw 1.8vw rgba(0, 0, 0, 0.35);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     animation: vista_perspectivas_card_glide 6s ease-in-out infinite;
+    min-width: 0;
+    overflow: visible;
 }
 
 .vista_perspectivas_interview_card:nth-child(2) {
@@ -944,56 +1071,103 @@ img {
 
 .vista_perspectivas_interview_card:hover {
     transform: translateY(-0.25vw);
-    box-shadow: 0 1vw 2.4vw rgba(0,0,0,0.45);
+    box-shadow: 0 1vw 2.4vw rgba(0, 0, 0, 0.45);
 }
 
 .vista_perspectivas_interview_profile {
     display: flex;
-    align-items: center;
-    gap: 0.8vw;
-    margin-bottom: 0.8vw;
+    align-items: flex-start;
+    gap: 0.9vw;
+    margin-bottom: 0.9vw;
 }
 
 .vista_perspectivas_interview_avatar {
-    width: 6.6vw;
-    height: 6.6vw;
+    width: clamp(72px, 4.8vw, 96px);
+    height: clamp(72px, 4.8vw, 96px);
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 0.0520833333vw solid rgba(255,255,255,0.6);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.6);
     object-fit: cover;
-    box-shadow: 0 0 0.9vw rgba(120,255,255,0.45);
+    box-shadow: 0 0 0.9vw rgba(120, 255, 255, 0.45);
 }
 
 .vista_perspectivas_interview_head {
     display: flex;
     flex-direction: column;
     gap: 0.3vw;
+    min-width: 0;
+    flex: 1;
 }
 
 .vista_perspectivas_interview_name {
-    font-size: 1.15vw;
-    color: rgba(255,255,255,0.98);
+    display: inline-block;
+    font-size: clamp(16px, 1vw, 22px);
+    padding: 0.12vw 0.46vw;
+    border-radius: 0.7vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.3);
+    color: #fff9f1;
+    background: rgba(36, 8, 36, 0.4);
+    text-shadow: 0 0 0.34vw rgba(255, 190, 129, 0.65);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.vista_perspectivas_interview_card:nth-child(1) .vista_perspectivas_interview_name {
+    color: #ff8fd0;
+    background: rgba(255, 78, 178, 0.22);
+    text-shadow: 0 0 0.5vw rgba(255, 143, 208, 0.88);
+}
+
+.vista_perspectivas_interview_card:nth-child(2) .vista_perspectivas_interview_name {
+    color: #ffc36f;
+    background: rgba(255, 153, 0, 0.22);
+    text-shadow: 0 0 0.5vw rgba(255, 195, 111, 0.88);
+}
+
+.vista_perspectivas_interview_card:nth-child(3) .vista_perspectivas_interview_name {
+    color: #cd9dff;
+    background: rgba(162, 87, 255, 0.22);
+    text-shadow: 0 0 0.5vw rgba(205, 157, 255, 0.9);
+}
+
+.vista_perspectivas_interview_card:nth-child(4) .vista_perspectivas_interview_name {
+    color: #ff9fb0;
+    background: rgba(255, 94, 122, 0.22);
+    text-shadow: 0 0 0.5vw rgba(255, 159, 176, 0.88);
+}
+
+.vista_perspectivas_interview_card:nth-child(5) .vista_perspectivas_interview_name {
+    color: #ffe28f;
+    background: rgba(255, 180, 64, 0.22);
+    text-shadow: 0 0 0.5vw rgba(255, 226, 143, 0.88);
 }
 
 .vista_perspectivas_interview_person {
-    font-size: 0.95vw;
-    color: rgba(210,240,255,0.9);
+    display: block;
+    font-size: clamp(13px, 0.86vw, 18px);
+    color: rgba(210, 240, 255, 0.9);
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .vista_perspectivas_interview_body {
     margin: 0 0 0.8vw 0;
-    font-size: 0.98vw;
-    line-height: 1.5;
+    font-size: clamp(14px, 0.9vw, 19px);
+    line-height: 1.55;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .vista_perspectivas_interview_quote {
     margin: 0;
-    font-size: 0.95vw;
-    color: rgba(150,255,235,0.95);
+    font-size: clamp(13px, 0.86vw, 18px);
+    color: rgba(150, 255, 235, 0.95);
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .vista_quienes_cardgrid {
-    width: 75%;
+    width: 68%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1002,15 +1176,15 @@ img {
     padding: 1.5vw 1.5vw;
     flex-wrap: wrap;
     border-radius: 2.2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.5);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.5);
     background:
-        linear-gradient(180deg, rgba(255,255,255,0.38) 0%, rgba(122,225,255,0.12) 100%);
+        linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(122, 225, 255, 0.12) 100%);
     backdrop-filter: blur(0.18vw) saturate(130%);
     -webkit-backdrop-filter: blur(0.18vw) saturate(130%);
     box-shadow:
-        inset 0 0.25vw 0.9vw rgba(255,255,255,0.55),
-        0 0.5vw 2.2vw rgba(0,8,30,0.35),
-        0 0 2.6vw rgba(103,255,232,0.16);
+        inset 0 0.25vw 0.9vw rgba(255, 255, 255, 0.55),
+        0 0.5vw 2.2vw rgba(0, 8, 30, 0.35),
+        0 0 2.6vw rgba(103, 255, 232, 0.16);
 }
 
 .vista_quienes_cardwrap {
@@ -1081,7 +1255,7 @@ img {
     border-radius: 1.04vw;
     width: 80%;
     height: 40%;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
     opacity: 0.75;
     pointer-events: none;
 }
@@ -1179,7 +1353,7 @@ img {
     top: 0;
     left: 0;
     height: 90vw;
-    background: linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.05) 40%, transparent 85%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.05) 40%, transparent 85%);
     transform-origin: top center;
     filter: blur(0.5208333333vw);
     mix-blend-mode: overlay;
@@ -1227,9 +1401,9 @@ img {
     bottom: -105vw;
     left: -30vw;
     background:
-        linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(0,255,200,0.05) 20%, transparent 45%);
-    border-top: 0.1vw solid rgba(255,255,255,0.15);
-    box-shadow: 0 -1.6875vw 4.5vw rgba(0,255,200,0.12);
+        linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(0, 255, 200, 0.05) 20%, transparent 45%);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -1.6875vw 4.5vw rgba(0, 255, 200, 0.12);
     z-index: 2;
     animation-duration: 18s;
 }
@@ -1239,10 +1413,10 @@ img {
     height: 160vw;
     bottom: -110vw;
     left: -25vw;
-    border-top: 0.1vw solid rgba(255,255,255,0.25);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.25);
     box-shadow:
-        inset 0 1.125vw 3.375vw rgba(255,255,255,0.12),
-        0 -0.5625vw 3.375vw rgba(0,255,180,0.2);
+        inset 0 1.125vw 3.375vw rgba(255, 255, 255, 0.12),
+        0 -0.5625vw 3.375vw rgba(0, 255, 180, 0.2);
     z-index: 3;
     animation-duration: 15s;
     animation-delay: 1s;
@@ -1253,11 +1427,11 @@ img {
     height: 150vw;
     bottom: -95vw;
     left: -35vw;
-    border-top: 0.2vw solid rgba(255,255,255,0.7);
+    border-top: 0.2vw solid rgba(255, 255, 255, 0.7);
     box-shadow:
-        0 -0.16875vw 0.675vw rgba(255,255,255,0.6),
-        0 -1.125vw 3.9375vw rgba(79,255,201,0.5),
-        inset 0 1.40625vw 3.375vw rgba(255,255,255,0.18);
+        0 -0.16875vw 0.675vw rgba(255, 255, 255, 0.6),
+        0 -1.125vw 3.9375vw rgba(79, 255, 201, 0.5),
+        inset 0 1.40625vw 3.375vw rgba(255, 255, 255, 0.18);
     z-index: 4;
     opacity: 0.95;
     animation-duration: 12s;
@@ -1268,7 +1442,7 @@ img {
     height: 140vw;
     bottom: -85vw;
     left: -5vw;
-    border-top: 0.1vw solid rgba(255,255,255,0.4);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.4);
     transform: rotate(-22deg);
     filter: blur(0.2vw);
     z-index: 5;
@@ -1292,9 +1466,227 @@ img {
     animation: vista_particle_float linear infinite;
 }
 
+.vista_empathy_shell {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vista_empathy_map_card {
+    width: fit-content;
+    max-width: 96vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vw;
+    border: 0.0520833333vw solid rgba(255,255,255,0.5);
+    background: rgba(10, 36, 64, 0.62) !important;
+    padding: 2vw;
+    color: rgba(240,255,255,0.96);
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+    box-shadow: 0 0.45vw 1.2vw rgba(0,0,0,0.28);
+}
+
+.vista_empathy_map {
+    position: relative;
+    width: min(82vw, 1080px);
+    margin: 0 auto;
+    min-height: 700px;
+    border-radius: 1.6vw;
+    border: 0.0520833333vw dashed rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.035);
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 280px 1fr;
+    grid-template-rows: auto 230px auto;
+    grid-template-areas:
+        ". top ."
+        "left center right"
+        ". bottom .";
+    align-items: center;
+    justify-items: center;
+    column-gap: 2vw;
+    row-gap: 2.1vw;
+    padding: 2.2vw;
+    box-sizing: border-box;
+}
+
+.vista_empathy_title {
+    margin: 0 0 0.4vw 0;
+    font-size: 1.8vw;
+    text-align: center;
+    color: rgba(230, 247, 255, 0.98);
+}
+
+.vista_empathy_intro {
+    margin: 0 0 1.4vw 0;
+    font-size: 1.05vw;
+    text-align: center;
+}
+
+.vista_empathy_diag {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 160%;
+    height: 0.12vw;
+    background: rgba(255, 255, 255, 0.35);
+    transform-origin: center;
+    pointer-events: none;
+}
+
+.vista_empathy_diag_a {
+    transform: translate(-50%, -50%) rotate(27deg);
+}
+
+.vista_empathy_diag_b {
+    transform: translate(-50%, -50%) rotate(-27deg);
+}
+
+.vista_empathy_node {
+    position: relative;
+    border: 0.0520833333vw solid rgba(255,255,255,0.42);
+    background: rgba(12, 40, 70, 0.64);
+    color: rgba(240,255,255,0.96);
+    border-radius: 1.1vw;
+    padding: 0.95vw 1vw;
+    width: 100%;
+    max-width: 460px;
+    text-align: left;
+    font-family: "zektonfont", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    z-index: 2;
+}
+
+.vista_empathy_node_top { grid-area: top; }
+.vista_empathy_node_left { grid-area: left; }
+.vista_empathy_node_right { grid-area: right; }
+.vista_empathy_node_bottom { grid-area: bottom; }
+
+.vista_empathy_node h3 {
+    margin: 0 0 0.4vw 0;
+    font-size: 1.28vw;
+    display: inline-block;
+    padding: 0.16vw 0.56vw;
+    border-radius: 0.7vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    background: rgba(42, 10, 40, 0.42);
+    text-shadow: 0 0 0.42vw rgba(255, 189, 129, 0.72);
+}
+
+.vista_empathy_node_top h3 {
+    color: #ff89d6;
+    background: rgba(255, 72, 186, 0.24);
+    text-shadow: 0 0 0.55vw rgba(255, 137, 214, 0.9);
+}
+
+.vista_empathy_node_left h3 {
+    color: #ffc878;
+    background: rgba(255, 155, 34, 0.24);
+    text-shadow: 0 0 0.55vw rgba(255, 200, 120, 0.9);
+}
+
+.vista_empathy_node_right h3 {
+    color: #cf9fff;
+    background: rgba(165, 90, 255, 0.24);
+    text-shadow: 0 0 0.55vw rgba(207, 159, 255, 0.9);
+}
+
+.vista_empathy_node_bottom h3 {
+    color: #ff9cb3;
+    background: rgba(255, 90, 126, 0.24);
+    text-shadow: 0 0 0.55vw rgba(255, 156, 179, 0.9);
+}
+
+.vista_empathy_node ul {
+    margin: 0;
+    padding-left: 1.05vw;
+    font-size: 0.9vw;
+    line-height: 1.4;
+}
+
+.vista_empathy_node:hover,
+.vista_empathy_node:focus-visible,
+.vista_empathy_node_active {
+    transform: translateY(-0.14vw);
+    box-shadow: 0 0 1vw rgba(120, 255, 255, 0.5);
+    border-color: rgba(170, 255, 255, 0.85);
+    outline: none;
+}
+
+.vista_empathy_center {
+    grid-area: center;
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 170px;
+    text-align: center;
+    z-index: 3;
+    margin-top: 10px;
+}
+
+.vista_empathy_center img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 0.14vw solid rgba(255,255,255,0.7);
+    object-fit: cover;
+    box-shadow: 0 0 0.65vw rgba(120,255,255,0.22);
+    pointer-events: none;
+}
+
+.vista_empathy_center_name {
+    margin: 0.45vw 0 0;
+    font-size: 0.78vw;
+    line-height: 1.22;
+    color: #eff8ff;
+    text-shadow: 0 0.05vw 0.18vw rgba(0,0,0,0.58);
+}
+
+.vista_empathy_outcomes {
+    margin-top: 1.2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+
+.vista_empathy_outcome {
+    border-radius: 1.2vw;
+    padding: 1vw 1.2vw;
+    text-align: left;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.45);
+    background: rgba(9, 30, 58, 0.62);
+}
+
+.vista_empathy_outcome h3 {
+    margin: 0 0 0.5vw 0;
+    font-size: 1.45vw;
+}
+
+.vista_empathy_outcome ul {
+    margin: 0;
+    padding-left: 1.1vw;
+    font-size: 0.97vw;
+    line-height: 1.5;
+}
+
+.vista_empathy_outcome_pain {
+    border-color: rgba(255, 205, 135, 0.7);
+}
+
+.vista_empathy_outcome_gain {
+    border-color: rgba(165, 255, 210, 0.7);
+}
+
 .vista_insights_shell {
     width: 100%;
-    max-width: 88vw;
+    max-width: 52vw;
     display: flex;
     flex-direction: column;
     gap: 2.4vw;
@@ -1311,15 +1703,15 @@ img {
 
 .vista_insights_card {
     border-radius: 1.8vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.5);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.5);
     background:
-        radial-gradient(85% 75% at 50% 0%, rgba(255,255,255,0.6), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.03) 100%);
+        radial-gradient(85% 75% at 50% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.03) 100%);
     box-shadow:
-        inset 0 -0.35vw 0.8vw rgba(255,255,255,0.22),
-        0 0.8vw 2vw rgba(0,0,0,0.35);
+        inset 0 -0.35vw 0.8vw rgba(255, 255, 255, 0.22),
+        0 0.8vw 2vw rgba(0, 0, 0, 0.35);
     padding: 2.1vw;
     text-align: left;
-    color: rgba(235,255,255,0.96);
+    color: rgba(235, 255, 255, 0.96);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -1337,16 +1729,17 @@ img {
     align-self: flex-start;
     padding: 0.35vw 1.1vw;
     border-radius: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.6);
-    background: rgba(0,40,80,0.35);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.6);
+    background: rgba(0, 40, 80, 0.35);
     font-size: 1vw;
     letter-spacing: 0.05vw;
+    color: rgba(238, 248, 255, 0.96);
 }
 
 .vista_insights_cardtitle {
     margin: 0;
     font-size: 1.55vw;
-    color: rgba(255,255,255,0.98);
+    color: rgba(255, 255, 255, 0.98);
 }
 
 .vista_insights_list {
@@ -1360,19 +1753,19 @@ img {
 }
 
 .vista_insights_card_learned {
-    border-color: rgba(120,220,255,0.7);
+    border-color: rgba(120, 220, 255, 0.7);
 }
 
 .vista_insights_card_interviews {
-    border-color: rgba(150,255,220,0.6);
+    border-color: rgba(150, 255, 220, 0.6);
 }
 
 .vista_insights_card_perspectives {
-    border-color: rgba(255,190,240,0.6);
+    border-color: rgba(255, 190, 240, 0.6);
 }
 
 .vista_insights_card_places {
-    border-color: rgba(255,220,140,0.6);
+    border-color: rgba(255, 220, 140, 0.6);
 }
 
 .vista_insights_ribbon {
@@ -1387,34 +1780,34 @@ img {
     width: 26vw;
     height: 0.2vw;
     border-radius: 2vw;
-    background: linear-gradient(90deg, rgba(0,255,210,0), rgba(255,255,255,0.85), rgba(0,255,210,0));
-    box-shadow: 0 0 0.6vw rgba(0,255,210,0.6);
+    background: linear-gradient(90deg, rgba(0, 255, 210, 0), rgba(255, 255, 255, 0.85), rgba(0, 255, 210, 0));
+    box-shadow: 0 0 0.6vw rgba(0, 255, 210, 0.6);
 }
 
 .vista_insights_ribbon_orb {
     width: 1.3vw;
     height: 1.3vw;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,255,255,0.98) 0%, rgba(0,255,210,0.9) 50%, rgba(0,255,210,0.1) 100%);
-    box-shadow: 0 0 0.7vw rgba(0,255,210,0.7);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.98) 0%, rgba(0, 255, 210, 0.9) 50%, rgba(0, 255, 210, 0.1) 100%);
+    box-shadow: 0 0 0.7vw rgba(0, 255, 210, 0.7);
 }
 
 .vista_insights_summary {
     width: 100%;
     border-radius: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.5);
-    background: rgba(0,25,45,0.55);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.5);
+    background: rgba(0, 25, 45, 0.55);
     padding: 2.2vw;
     text-align: left;
-    color: rgba(235,255,255,0.95);
+    color: rgba(235, 255, 255, 0.95);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
-    box-shadow: 0 0.9vw 2.2vw rgba(0,0,0,0.35);
+    box-shadow: 0 0.9vw 2.2vw rgba(0, 0, 0, 0.35);
 }
 
 .vista_insights_summary_title {
     margin: 0 0 0.8vw 0;
     font-size: 1.6vw;
-    color: rgba(255,255,255,0.98);
+    color: rgba(255, 255, 255, 0.98);
 }
 
 .vista_insights_summary_text {
@@ -1424,66 +1817,154 @@ img {
 }
 
 @keyframes vista_raylight_motion {
-    0%,100% { opacity: 0.4; transform: translateX(0) rotate(24deg); }
-    50% { opacity: 0.7; transform: translateX(2vw) rotate(24deg); }
+
+    0%,
+    100% {
+        opacity: 0.4;
+        transform: translateX(0) rotate(24deg);
+    }
+
+    50% {
+        opacity: 0.7;
+        transform: translateX(2vw) rotate(24deg);
+    }
 }
 
 @keyframes vista_curve_drift {
-    0%,100% { transform: rotate(-24deg) translateY(0); }
-    50% { transform: rotate(-23deg) translateY(1.125vw); }
+
+    0%,
+    100% {
+        transform: rotate(-24deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-23deg) translateY(1.125vw);
+    }
 }
 
 @keyframes vista_particle_float {
-    0% { opacity: 0; transform: translateY(0) scale(0.6); }
-    50% { opacity: 1; transform: translateY(-1.125vw) scale(1); }
-    100% { opacity: 0; transform: translateY(-2.25vw) scale(0.6); }
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.6);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-1.125vw) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-2.25vw) scale(0.6);
+    }
 }
 
 @keyframes vista_inicio_glow_pulse {
-    0%,100% { text-shadow: 0 0.07vw 0.24vw rgba(36,48,88,0.28), 0 0 0.52vw rgba(255,255,255,0.22); }
-    50% { text-shadow: 0 0.08vw 0.29vw rgba(54,74,130,0.34), 0 0 0.82vw rgba(255,255,255,0.36); }
+
+    0%,
+    100% {
+        text-shadow: 0 0.07vw 0.24vw rgba(36, 48, 88, 0.28), 0 0 0.52vw rgba(255, 255, 255, 0.22);
+    }
+
+    50% {
+        text-shadow: 0 0.08vw 0.29vw rgba(54, 74, 130, 0.34), 0 0 0.82vw rgba(255, 255, 255, 0.36);
+    }
 }
 
 @keyframes vista_experiencias_vs_glow {
-    0%,100% {
+
+    0%,
+    100% {
         transform: scale(1);
         text-shadow:
-            0 0 0.4vw rgba(120,255,255,0.7),
-            0 0 0.8vw rgba(0,255,220,0.8),
-            0 0 1.4vw rgba(0,255,200,0.65);
+            0 0 0.4vw rgba(120, 255, 255, 0.7),
+            0 0 0.8vw rgba(0, 255, 220, 0.8),
+            0 0 1.4vw rgba(0, 255, 200, 0.65);
     }
+
     50% {
         transform: scale(1.06);
         text-shadow:
-            0 0 0.6vw rgba(160,255,255,0.85),
-            0 0 1.1vw rgba(0,255,230,0.9),
-            0 0 1.8vw rgba(0,255,210,0.8);
+            0 0 0.6vw rgba(160, 255, 255, 0.85),
+            0 0 1.1vw rgba(0, 255, 230, 0.9),
+            0 0 1.8vw rgba(0, 255, 210, 0.8);
     }
 }
 
 @keyframes vista_experiencias_laser_pulse {
-    0%,100% { opacity: 0.75; transform: scaleX(0.98); }
-    50% { opacity: 1; transform: scaleX(1.02); }
+
+    0%,
+    100% {
+        opacity: 0.75;
+        transform: scaleX(0.98);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleX(1.02);
+    }
 }
 
 @keyframes vista_experiencias_laser_core_pulse {
-    0%,100% { transform: scale(0.92); opacity: 0.8; }
-    50% { transform: scale(1.08); opacity: 1; }
+
+    0%,
+    100% {
+        transform: scale(0.92);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
 }
 
 @keyframes vista_perspectivas_panel_float {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(0.3vw); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(0.3vw);
+    }
 }
 
 @keyframes vista_perspectivas_card_glide {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(0.25vw); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(0.25vw);
+    }
+}
+
+@keyframes vista_story_fade {
+    0% {
+        opacity: 0;
+        transform: translateY(0.25vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes vista_perspectivas_decor_float {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-0.4vw); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-0.4vw);
+    }
 }
 
 .vista_perspectivas_iconstrip {
@@ -1498,7 +1979,7 @@ img {
     position: absolute;
     width: 5.2vw;
     height: auto;
-    filter: drop-shadow(0 0 0.8vw rgba(120,255,255,0.6));
+    filter: drop-shadow(0 0 0.8vw rgba(120, 255, 255, 0.6));
     animation: vista_perspectivas_decor_float 6.5s ease-in-out infinite;
     opacity: 0.85;
 }
@@ -1540,20 +2021,200 @@ img {
 
 .vista_experto_shell {
     width: 100%;
+    max-width: 72vw;
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 3vw;
+    grid-template-columns: 1fr;
+    gap: 1.6vw;
     align-items: start;
     margin-top: 2.2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (orientation: portrait) {
+    .vista_raylight_cluster,
+    .vista_curve_arc,
+    .vista_experiencias_laserwrap,
+    .vista_experiencias_vs,
+    .vista_perspectivas_iconstrip {
+        display: none;
+    }
+
+    .vista_glass_banner_shell {
+        padding-top: 3vw;
+    }
+
+    .vista_glass_banner_core {
+        width: 94vw;
+        max-width: 94vw;
+    }
+
+    .vista_main_route_lane {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.1vw;
+        padding: 1.4vw 1.8vw;
+    }
+
+    .vista_route_group {
+        flex-wrap: wrap;
+        gap: 1.1vw;
+        justify-content: center;
+    }
+
+    .vista_route_group_left,
+    .vista_route_group_right {
+        padding: 0;
+    }
+
+    .vista_banner_emblem {
+        position: static;
+        transform: rotate(45deg);
+        margin: 0 auto;
+        width: 10.5vw;
+        height: 10.5vw;
+    }
+
+    .vista_route_switch {
+        font-size: clamp(15px, 2.2vw, 30px);
+        min-height: auto;
+    }
+
+    .vista_spa_panel_host {
+        padding: 3vw 2.4vw;
+    }
+
+    .vista_spa_panel {
+        max-width: 94vw;
+    }
+
+    #vista_inicio_content {
+        flex-direction: column;
+        gap: 2.4vw;
+    }
+
+    #vista_inicio_orbgrid {
+        display: none;
+    }
+
+    #vista_inicio_bullets {
+        max-width: 94vw;
+        font-size: clamp(15px, 2.2vw, 24px);
+        line-height: 1.65;
+        padding: 3.2vw 3.4vw;
+    }
+
+    .vista_quienes_cardgrid,
+    .vista_experiencias_gridwrap,
+    .vista_empathy_map_card {
+        width: 94vw;
+        max-width: 94vw;
+    }
+
+        .vista_insights_shell {
+            width: 80vw;
+            max-width: 80vw;
+        }
+
+    .vista_perspectivas_panel,
+    .vista_perspectivas_stories_head,
+    .vista_perspectivas_story_tabs,
+    .vista_perspectivas_story_panels,
+    .vista_perspectivas_interviews {
+        width: 86vw;
+        max-width: 86vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vista_perspectivas_interviews {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .vista_experto_shell {
+        width: 84vw;
+        max-width: 84vw;
+    }
+
+    .vista_experto_resume {
+        max-width: 72vw;
+    }
+
+    .vista_experiencias_gridwrap {
+        grid-template-columns: 1fr;
+        gap: 2vw;
+    }
+
+    .vista_experiencias_column {
+        width: 100%;
+        max-width: 94vw;
+    }
+
+    .vista_perspectivas_interviews,
+    .vista_insights_grid,
+    .vista_empathy_outcomes {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_experto_shell,
+    .vista_experto_resume {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_empathy_map {
+        width: 100%;
+        min-height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "top"
+            "left"
+            "center"
+            "right"
+            "bottom";
+        grid-template-rows: auto;
+        gap: 1.4vw;
+        padding: 2.2vw;
+    }
+
+    .vista_empathy_diag {
+        display: none;
+    }
+
+    .vista_empathy_node {
+        max-width: 100%;
+    }
+
+    .vista_empathy_center {
+        width: clamp(110px, 20vw, 180px);
+        margin: 0.8vw auto;
+    }
 }
 
 .vista_experto_resume {
     display: grid;
     grid-template-columns: 0.42fr 0.58fr;
+    width: 100%;
+    max-width: 52vw;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 1.8vw;
     overflow: hidden;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
-    box-shadow: 0 0.8vw 2.2vw rgba(0,0,0,0.4);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0.8vw 2.2vw rgba(0, 0, 0, 0.4);
+    min-width: 0;
+}
+
+.vista_perspectivas_panel,
+.vista_story_panel,
+.vista_experto_guide,
+.vista_experto_block p,
+.vista_experto_block li,
+.vista_experto_section p,
+.vista_experto_section li,
+.vista_experto_answers p {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .vista_experto_left {
@@ -1614,7 +2275,7 @@ img {
     font-size: 1vw;
     display: block;
     margin-top: 0.4vw;
-    color: #2b4a2b;
+    color: #4a6866;
 }
 
 .vista_experto_section {
@@ -1641,16 +2302,23 @@ img {
 .vista_experto_guide {
     border-radius: 1.8vw;
     padding: 2vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.4);
-    background: rgba(0,25,40,0.55);
-    color: rgba(235,255,255,0.95);
-    box-shadow: 0 0.8vw 2vw rgba(0,0,0,0.35);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 25, 40, 0.55);
+    color: rgba(235, 255, 255, 0.95);
+    box-shadow: 0 0.8vw 2vw rgba(0, 0, 0, 0.35);
     font-family: "zektonfont", Arial, Helvetica, sans-serif;
 }
 
 .vista_experto_guide h2 {
     margin: 0 0 1vw 0;
     font-size: 1.6vw;
+    display: inline-block;
+    padding: 0.2vw 0.7vw;
+    border-radius: 0.75vw;
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.35);
+    color: #ff72da;
+    background: rgba(255, 70, 188, 0.2);
+    text-shadow: 0 0 0.62vw rgba(255, 114, 218, 0.86);
 }
 
 .vista_experto_guide ol {
@@ -1677,8 +2345,8 @@ img {
     margin-top: 1.6vw;
     padding: 1.4vw;
     border-radius: 1.4vw;
-    border: 0.0520833333vw solid rgba(255,255,255,0.35);
-    background: rgba(0,20,35,0.5);
+    border: 0.0520833333vw solid rgba(255, 255, 255, 0.35);
+    background: rgba(0, 20, 35, 0.5);
 }
 
 .vista_experto_answers h3 {
@@ -1745,19 +2413,21 @@ img {
         opacity: 1;
         filter: blur(0);
         transform: translateY(0);
-        text-shadow: 0 0 0.25vw rgba(210,255,250,0.65);
+        text-shadow: 0 0 0.25vw rgba(210, 255, 250, 0.65);
     }
+
     50% {
         opacity: 0.5;
         filter: blur(0.2vw);
         transform: translateY(-0.18vw);
-        text-shadow: 0 0 0.65vw rgba(210,255,250,0.8);
+        text-shadow: 0 0 0.65vw rgba(210, 255, 250, 0.8);
     }
+
     100% {
         opacity: 1;
         filter: blur(0);
         transform: translateY(0);
-        text-shadow: 0 0 0.25vw rgba(210,255,250,0.65);
+        text-shadow: 0 0 0.25vw rgba(210, 255, 250, 0.65);
     }
 }
 
@@ -1766,19 +2436,21 @@ img {
         opacity: 1;
         letter-spacing: 0;
         transform: translateY(0);
-        text-shadow: 0 0 0.2vw rgba(255,240,170,0.6);
+        text-shadow: 0 0 0.2vw rgba(255, 240, 170, 0.6);
     }
+
     50% {
         opacity: 0.55;
         letter-spacing: 0.24vw;
         transform: translateY(0.08vw);
-        text-shadow: 0 0 0.7vw rgba(255,240,170,0.9);
+        text-shadow: 0 0 0.7vw rgba(255, 240, 170, 0.9);
     }
+
     100% {
         opacity: 1;
         letter-spacing: 0;
         transform: translateY(0);
-        text-shadow: 0 0 0.2vw rgba(255,240,170,0.6);
+        text-shadow: 0 0 0.2vw rgba(255, 240, 170, 0.6);
     }
 }
 
@@ -1786,16 +2458,554 @@ img {
     0% {
         filter: blur(0);
         letter-spacing: 0;
-        text-shadow: 0 0 0.18vw rgba(180,215,255,0.6);
+        text-shadow: 0 0 0.18vw rgba(180, 215, 255, 0.6);
     }
+
     50% {
         filter: blur(0.18vw);
         letter-spacing: 0.22vw;
-        text-shadow: 0 0 0.7vw rgba(180,215,255,0.85);
+        text-shadow: 0 0 0.7vw rgba(180, 215, 255, 0.85);
     }
+
     100% {
         filter: blur(0);
         letter-spacing: 0;
-        text-shadow: 0 0 0.18vw rgba(180,215,255,0.6);
+        text-shadow: 0 0 0.18vw rgba(180, 215, 255, 0.6);
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 1200px) {
+    .vista_route_switch {
+        font-size: 1.9vw;
+    }
+
+    #vista_inicio_title,
+    #vista_quienes_title,
+    #vista_experiencias_title,
+    #vista_perspectivas_title,
+    #vista_experto_title,
+    #vista_insights_title {
+        font-size: 3.6vw;
+    }
+
+    #vista_inicio_content {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    #vista_inicio_orbgrid {
+        width: 36vw;
+        height: 40vw;
+    }
+
+    #vista_inicio_bullets {
+        max-width: 74vw;
+        font-size: 1.8vw;
+    }
+
+    .vista_quienes_cardgrid {
+        width: 82%;
+    }
+
+    .vista_perspectivas_interviews {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .vista_experto_shell {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_experto_resume {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_experiencias_gridwrap {
+        grid-template-columns: 1fr;
+        gap: 2vw;
+    }
+
+    .vista_experiencias_vs,
+    .vista_experiencias_laserwrap {
+        display: none;
+    }
+
+    .vista_experiencias_column {
+        max-width: 78vw;
+        width: 100%;
+    }
+
+    .vista_perspectivas_panel,
+    .vista_perspectivas_stories_head,
+    .vista_perspectivas_story_tabs,
+    .vista_perspectivas_story_panels {
+        max-width: 72vw;
+    }
+
+    .vista_perspectivas_interviews {
+        max-width: 72vw;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .vista_insights_shell,
+    .vista_empathy_shell {
+        max-width: 76vw;
+    }
+
+    .vista_insights_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_empathy_shell {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vista_empathy_map_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vista_empathy_map {
+        width: min(92vw, 1100px);
+        margin: 0 auto;
+        min-height: 680px;
+        grid-template-columns: 1fr 230px 1fr;
+        grid-template-rows: auto 200px auto;
+        column-gap: 1.6vw;
+        row-gap: 1.8vw;
+    }
+
+    .vista_empathy_center {
+        width: 145px;
+    }
+
+    .vista_empathy_center_name {
+        font-size: 1.05vw;
+    }
+
+    .vista_empathy_node {
+        max-width: 420px;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 900px) {
+    .vista_glass_banner_shell {
+        padding-top: 4vw;
+    }
+
+    .vista_glass_banner_core {
+        min-height: auto;
+        border-radius: 3vw;
+    }
+
+    .vista_main_route_lane {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.2vw;
+        padding: 2vw;
+    }
+
+    .vista_banner_emblem {
+        position: static;
+        transform: rotate(45deg);
+        margin: 0 auto;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .vista_route_group {
+        flex-wrap: wrap;
+        gap: 1.4vw;
+        justify-content: center;
+    }
+
+    .vista_route_group_left,
+    .vista_route_group_right {
+        padding: 0;
+    }
+
+    .vista_route_switch {
+        min-height: auto;
+        font-size: 2.7vw;
+    }
+
+    #vista_inicio_title,
+    #vista_quienes_title,
+    #vista_experiencias_title,
+    #vista_perspectivas_title,
+    #vista_experto_title,
+    #vista_insights_title {
+        font-size: 5vw;
+        line-height: 1.2;
+    }
+
+    #vista_inicio_bullets {
+        max-width: 90vw;
+        font-size: 2.5vw;
+        line-height: 1.6;
+        padding: 4vw;
+    }
+
+    .vista_quienes_cardgrid {
+        width: 92%;
+    }
+
+    .vista_perspectivas_panel,
+    .vista_perspectivas_stories_head,
+    .vista_perspectivas_story_tabs,
+    .vista_perspectivas_story_panels {
+        max-width: 84vw;
+    }
+
+    .vista_perspectivas_interviews {
+        max-width: 84vw;
+        grid-template-columns: 1fr;
+    }
+
+    .vista_story_tab {
+        font-size: 2.2vw;
+        padding: 1.1vw 2.2vw;
+    }
+
+    .vista_story_panel h3 {
+        font-size: 2.8vw;
+    }
+
+    .vista_story_panel p {
+        font-size: 2.1vw;
+    }
+
+    .vista_perspectivas_interview_avatar {
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .vista_perspectivas_interview_name {
+        font-size: 2.4vw;
+    }
+
+    .vista_perspectivas_interview_person,
+    .vista_perspectivas_interview_body,
+    .vista_perspectivas_interview_quote {
+        font-size: 2vw;
+    }
+
+    .vista_experto_guide,
+    .vista_experto_reason {
+        padding: 3vw;
+    }
+
+    .vista_empathy_shell {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vista_empathy_map_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vista_empathy_map {
+        width: min(94vw, 760px);
+        margin: 0 auto;
+        min-height: auto;
+        padding: 2vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "top"
+            "left"
+            "center"
+            "right"
+            "bottom";
+        grid-template-rows: auto;
+        gap: 1.2vw;
+    }
+
+    .vista_empathy_diag {
+        display: none;
+    }
+
+    .vista_empathy_node {
+        max-width: 100%;
+    }
+
+    .vista_empathy_node h3 {
+        font-size: 2.9vw;
+    }
+
+    .vista_empathy_node ul {
+        font-size: 2.1vw;
+    }
+
+    .vista_empathy_center {
+        width: 20vw;
+        margin: 0.8vw auto;
+    }
+
+    .vista_empathy_center_name {
+        font-size: 1.9vw;
+    }
+
+    .vista_empathy_outcomes {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_empathy_title {
+        font-size: 3.5vw;
+    }
+
+    .vista_empathy_intro {
+        font-size: 2.2vw;
+    }
+
+    .vista_empathy_outcome h3 {
+        font-size: 2.8vw;
+    }
+
+    .vista_empathy_outcome ul {
+        font-size: 2.05vw;
+    }
+
+    .vista_insights_cardtitle {
+        font-size: 2.8vw;
+    }
+
+    .vista_insights_shell {
+        max-width: 80vw;
+    }
+
+    .vista_insights_list,
+    .vista_insights_summary_text {
+        font-size: 2.1vw;
+    }
+
+    .vista_insights_summary_title {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 600px) {
+    .vista_spa_panel_host {
+        padding: 3vw 2.5vw;
+    }
+
+    .vista_route_switch {
+        font-size: 3.4vw;
+    }
+
+    #vista_inicio_title,
+    #vista_quienes_title,
+    #vista_experiencias_title,
+    #vista_perspectivas_title,
+    #vista_experto_title,
+    #vista_insights_title {
+        font-size: 6vw;
+    }
+
+    #vista_inicio_orbgrid {
+        display: none;
+    }
+
+    #vista_inicio_bullets {
+        max-width: 94vw;
+        font-size: 3.2vw;
+        border-radius: 4vw;
+    }
+
+    .vista_quienes_cardgrid {
+        width: 96%;
+    }
+
+    .vista_perspectivas_panel,
+    .vista_perspectivas_stories_head,
+    .vista_perspectivas_story_tabs,
+    .vista_perspectivas_story_panels,
+    .vista_perspectivas_interviews {
+        max-width: 90vw;
+    }
+
+    .vista_experto_shell {
+        max-width: 90vw;
+    }
+
+    .vista_experto_resume {
+        max-width: 84vw;
+    }
+
+    .vista_experto_resume {
+        grid-template-columns: 1fr;
+    }
+
+    .vista_quienes_card {
+        width: 80vw;
+        height: 108vw;
+        border-radius: 4vw;
+    }
+
+    .vista_quienes_cardbg {
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding-top: 8vw;
+    }
+
+    .vista_quienes_illocircle {
+        width: 38vw;
+        height: 38vw;
+    }
+
+    .vista_quienes_cardinfo {
+        top: 44vw;
+        padding: 3vw 4vw;
+    }
+
+    .vista_quienes_name {
+        font-size: 3.7vw;
+    }
+
+    .vista_quienes_mail {
+        font-size: 2.8vw;
+    }
+
+    .vista_quienes_bio {
+        opacity: 1;
+        font-size: 2.9vw;
+    }
+
+    .vista_story_tab {
+        font-size: 3vw;
+    }
+
+    .vista_story_panel h3 {
+        font-size: 3.6vw;
+    }
+
+    .vista_story_panel p {
+        font-size: 2.9vw;
+    }
+
+    .vista_experiencias_headtitle {
+        font-size: 3.1vw;
+    }
+
+    .vista_experiencias_logo {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .vista_experiencias_flag {
+        width: 4.8vw;
+    }
+
+    .vista_experiencias_tagline {
+        font-size: 2.8vw;
+        padding: 1.4vw 3vw;
+    }
+
+    .vista_experiencias_infotitle {
+        font-size: 2.9vw;
+    }
+
+    .vista_experiencias_infosub,
+    .vista_experiencias_list,
+    .vista_experiencias_infotext,
+    .vista_experiencias_bottomask {
+        font-size: 2.7vw;
+    }
+
+    .vista_experiencias_icon {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    .vista_experto_left,
+    .vista_experto_right,
+    .vista_experto_guide {
+        padding: 4vw;
+    }
+
+    .vista_experto_header h2 {
+        font-size: 4.6vw;
+    }
+
+    .vista_experto_header span,
+    .vista_experto_section p,
+    .vista_experto_section ul,
+    .vista_experto_questions,
+    .vista_experto_answers p {
+        font-size: 2.8vw;
+    }
+
+    .vista_experto_section h3,
+    .vista_experto_answers h3,
+        .vista_experto_guide h2,
+        .vista_experto_reason h3 {
+        font-size: 3.4vw;
+    }
+    .vista_experto_reason p {
+            font-size: 2.8vw;
+        }
+
+    .vista_experto_photo {
+        width: 28vw;
+        height: 28vw;
+    }
+
+    .vista_empathy_shell {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vista_empathy_map_card {
+        max-width: 98vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3vw;
+    }
+
+    .vista_empathy_map {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2.2vw;
+        gap: 1.8vw;
+    }
+
+    .vista_empathy_title {
+        font-size: 4.6vw;
+    }
+
+    .vista_empathy_intro,
+    .vista_empathy_node ul,
+    .vista_empathy_center_name,
+    .vista_empathy_outcome ul {
+        font-size: 2.9vw;
+    }
+
+    .vista_empathy_node h3,
+    .vista_empathy_outcome h3 {
+        font-size: 3.7vw;
+    }
+
+    .vista_empathy_center {
+        width: 26vw;
+    }
+
+    .vista_empathy_center_name {
+        font-size: 2.8vw;
+    }
+
+    .vista_insights_cardtitle {
+        font-size: 3.9vw;
+    }
+
+    .vista_insights_cardtag,
+    .vista_insights_list,
+    .vista_insights_summary_text {
+        font-size: 2.8vw;
+    }
+
+    .vista_insights_summary_title {
+        font-size: 4vw;
     }
 }
